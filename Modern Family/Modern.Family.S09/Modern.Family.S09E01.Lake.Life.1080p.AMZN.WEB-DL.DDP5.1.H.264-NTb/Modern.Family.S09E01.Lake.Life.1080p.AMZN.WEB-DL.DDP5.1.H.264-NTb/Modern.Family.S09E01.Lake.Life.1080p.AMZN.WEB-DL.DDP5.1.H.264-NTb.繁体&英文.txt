@@ -1,0 +1,617 @@
+﻿[Script Info]
+; // 此字幕由PopSub生成  2018-07-28 23:22:33
+; // 版本: 0.75
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:YYeTs
+Original Script:YYeTs
+Synch Point:1
+ScriptType:v4.00+
+Collisions:Normal
+
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正黑体_GBK,20,&H00FFFFFF,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0.00,1,2,1,2,5,5,2,134
+Style: LOGO,微软雅黑,21,&H00FFFFFF,&HF0000000,&HF0000000,&H00000000,0,0,0,0,100,100,1,0.00,1,2,0,2,30,30,5,134
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.00,0:00:10.00,*Default,NTP,0000,0000,0000,,{\an5\fad(0,500)\p1\bord2\shad0\fscx150\fscy160\alpha&566\c&H000000&\3c&HECB000&\move(145,247,145,227,0,500)\clip(30,188,340,210)\t(0,500,\clip(30,168,340,190))}m 211 -8 b 217 -6 217 -4 217 -2 l 217 24 b 217 26 217 29 211 31 l 31 31 b 26 29 26 26 26 24 l 26 -2 b 26 -4 26 -6 31 -8{\p0}
+Dialogue: 0,0:00:05.00,0:00:10.00,*Default,NTP,0000,0000,0000,,{\an5\fad(0,500)\p1\bord2\shad0\fscx150\fscy160\alpha&566\c&H000000&\3c&HECB000&\move(145,207,145,227,0,500)\clip(30,220,340,235)\t(0,500,\clip(30,240,340,255))}m 211 -8 b 217 -6 217 -4 217 -2 l 217 24 b 217 26 217 29 211 31 l 31 31 b 26 29 26 26 26 24 l 26 -2 b 26 -4 26 -6 31 -8{\p0}
+Dialogue: 0,0:00:05.00,0:00:10.00,*Default,NTP,0000,0000,0000,,{\an5\fad(0,500)\p1\bord3\blur3\shad0\fscx150\fscy0\t(0,400,\fscy160)\alpha&566\c&H000000&\pos(145,227)\clip(30,210,340,220)\t(0,500,\clip(30,190,340,240))}m 211 -8 b 217 -6 217 -4 217 -2 l 217 24 b 217 26 217 29 211 31 l 31 31 b 26 29 26 26 26 24 l 26 -2 b 26 -4 26 -6 31 -8{\p0}
+Dialogue: 1,0:00:05.50,0:00:10.00,*Default,NTP,0000,0000,0000,,{\fad(0,500)\bord0\shad0\blur5\t(0,500,\blur0)\fscx11\fscy14.5\p1\c&HCE8F00&\pos(67,223)}m 20 0 l 209 0 b 218 0 229 11 229 20 l 229 209 b 229 218 218 228 209 228 l 20 228 b 11 228 0 218 0 209 l 0 20 b 0 11 11 0 20 0{\p0}
+Dialogue: 3,0:00:05.50,0:00:10.00,*Default,NTP,0000,0000,0000,,{\fad(0,500)\bord0\shad0\blur5\t(0,500,\blur0)\fscx11\fscy14\p1\c&HF6DBA1&\pos(67,223)}m 115 64 l 115 35 l 171 0 l 177 0 l 133 46 l 143 52 l 179 0 l 184 0 l 159 63 l 229 107 l 229 182 l 145 96 l 135 122 l 207 227 l 137 227 l 115 172 l 115 93 l 126 76 l 115 64 l 104 76 l 115 93 l 115 172 l 93 227 l 23 227 l 95 122 l 84 96 l 0 182 l 0 107 l 70 63 l 45 0 l 50 0 l 87 52 l 97 46 l 52 0 l 59 0 l 115 35{\p0}
+Dialogue: 5,0:00:05.50,0:00:10.00,*Default,NTP,0000,0000,0000,,{\fad(0,500)\bord0\shad0\fscx15\fscy18\p1\c&HFFFFFF&\blur9\pos(58,213)}m 71 60 b 71 0 161 0 161 60 b 161 120 71 120 71 60{\p0}
+Dialogue: 1,0:00:05.50,0:00:10.00,*Default,NTP,0000,0000,0000,,{\fad(0,500)\bord0\shad0\blur5\t(0,500,\blur0)\fscx11\fscy14\p1\c&HECB000&\pos(84,223)}m 325 0 l 355 0 l 332 47 l 354 47 l 399 136 l 369 136 l 328 53 l 288 136 l 257 136 l 325 0 m 467 0 l 497 0 l 474 47 l 496 47 l 541 136 l 511 136 l 470 53 l 430 136 l 399 136 l 467 0 m 545 1 l 583 1 l 583 14 l 568 14 l 568 19 l 583 19 l 583 30 l 568 30 l 568 34 l 599 34 l 599 30 l 583 30 l 583 19 l 599 19 l 599 14 l 583 14 l 583 1 l 611 1 b 616 1 622 6 622 10 l 622 36 l 652 0 l 678 0 l 644 41 l 622 41 l 622 47 l 596 47 l 597 54 l 625 54 l 625 68 l 541 68 l 541 54 l 572 54 l 571 47 l 545 47 l 545 1 m 583 72 l 583 85 l 569 85 l 569 90 l 598 90 l 598 85 l 583 85 l 583 72 l 611 72 b 615 72 621 78 621 82 l 653 44 l 678 44 l 644 86 l 621 86 l 621 103 l 597 103 l 597 136 l 570 136 l 564 126 l 562 136 l 542 136 l 548 107 l 568 107 l 565 121 l 571 121 l 571 103 l 547 103 l 547 72 l 583 72 m 600 107 l 620 107 l 624 124 l 653 89 l 679 89 l 642 136 l 615 136 l 618 132 l 606 132 l 600 107 m 689 0 l 716 0 l 721 15 l 732 15 l 732 30 l 718 56 l 731 56 l 735 100 l 721 100 l 717 59 l 714 64 l 714 136 l 693 136 l 693 79 l 676 79 l 707 30 l 679 30 l 679 15 l 694 15 l 689 0 m 738 0 l 804 0 b 807 0 813 6 813 9 l 813 87 l 794 87 l 794 14 l 756 14 l 756 87 l 763 77 l 763 21 l 787 21 l 787 91 l 798 91 l 798 120 l 820 120 l 812 136 l 778 136 l 778 90 l 748 136 l 723 136 l 756 87 l 738 87 l 738 0 m 257 151 l 275 151 l 297 182 l 319 151 l 337 151 l 304 197 l 304 227 l 290 227 l 290 197 l 257 151 m 337 151 l 355 151 l 377 182 l 399 151 l 417 151 l 384 197 l 384 227 l 370 227 l 370 197 l 337 151 m 425 192 l 447 192 b 445 181 427 181 425 192 l 410 192 b 414 162 458 162 462 192 l 462 206 l 425 206 b 425 210 429 212 433 213 l 462 213 l 462 227 l 433 227 b 412 227 408 203 410 192 m 462 151 l 532 151 l 532 165 l 504 165 l 504 227 l 489 227 l 489 165 l 462 165 l 462 151 m 580 172 l 580 186 l 549 186 b 543 186 543 192 549 192 l 565 192 b 589 192 589 227 565 227 l 532 227 l 532 213 l 565 213 b 570 213 570 206 565 206 l 549 206 b 524 206 524 172 549 172 l 580 172 m 592 213 l 606 213 l 606 227 l 592 227 l 592 213 m 639 172 l 665 172 l 665 186 l 639 186 b 623 186 623 213 639 213 l 665 213 l 665 227 l 639 227 b 603 227 603 172 639 172 m 700 184 b 722 184 722 215 700 215 l 700 229 b 740 229 740 170 700 170 b 660 170 660 229 700 229 l 700 215 b 680 215 680 184 700 184 m 737 172 l 782 172 b 803 172 813 177 813 198 l 813 228 l 799 228 l 799 198 b 799 186 793 187 782 187 l 782 228 l 768 228 l 768 187 l 752 187 l 752 228 l 737 228 l 737 172{\p0}
+Dialogue: 1,0:00:05.50,0:00:10.00,*Default,NTP,0000,0000,0000,,{\fad(0,500)\fs16\bord0\shad0\blur5\t(0,500,\blur0)\b1\c&HECB000&\pos(99,242)}原創翻譯  雙語字幕
+Dialogue: 1,0:00:06.00,0:00:10.00,*Default,NTP,0000,0000,0000,,{\fad(0,500)\fn方正准圆_GBK\b1\bord0\shad0\fs17\pos(235.108,242)\K40}最新連載海外影視劇下載\N{\fs19\K30}請登陸 {\c&H26F4FF&\fn方正综艺_GBK\K30}www.YYeTs.com\N{\fn方正准圆_GBK\fs15\c&HFFFFFF&\K60}僅供交流學習  禁止商用盈利
+Dialogue: 0,0:00:10.10,0:00:15.10,*Default,NTP,0000,0000,0000,,{\an4\fad(500,500)\fn方正准圆_GBK\fs17\bord0\shad0\c&H008AFF&\pos(12.12,219.36)}翻譯:  {\c&HFFFFFF&}親愛的小飯    灰灰是菇涼   油膩希   洗七里 
+Dialogue: 0,0:00:10.11,0:00:34.96,*Default,NTP,0000,0000,0000,,{\an5\fad(500,500)\bord0\shad0\fscx2300\fscy200\alpha&AA\pos(129.2,218.4)}■
+Dialogue: 0,0:00:15.07,0:00:20.07,*Default,NTP,0000,0000,0000,,{\an4\fad(500,500)\fn方正准圆_GBK\fs17\bord0\shad0\c&H008AFF&\pos(12.12,219.36)}翻譯:  {\fs18\c&H0BFDFE&}跟人做翻譯就跳...大神的賽太公
+Dialogue: 0,0:00:20.03,0:00:25.03,*Default,NTP,0000,0000,0000,,{\an4\fad(500,500)\fn方正准圆_GBK\fs17\bord0\shad0\c&H008AFF&\pos(12.12,219.36)}校對:  {\fs18\c&H0BFDFE&}新浪微博@賽太公
+Dialogue: 0,0:00:25.00,0:00:30.00,*Default,NTP,0000,0000,0000,,{\an4\fad(500,500)\fn方正准圆_GBK\fs17\bord0\shad0\c&H008AFF&\pos(12.12,219.36)}時間軸:  {\c&HFFFFFF&}三水
+Dialogue: 0,0:00:30.00,0:00:35.00,*Default,NTP,0000,0000,0000,,{\an4\fad(500,500)\fn方正准圆_GBK\fs17\bord0\shad0\c&H008AFF&\pos(12.12,219.36)}后期:  {\c&HFFFFFF&}瓜瓜    {\c&H008AFF&}總監： {\c&HFFFFFF&}懷念濃子的瓜瓜
+Dialogue: 4,0:00:35.10,0:00:45.10,*Default,NTP,0000,0000,0000,,{\fad(500,500)\an7\p3\bord0\shad0\fscx47\fscy60\alpha&H0\1c&H000000\pos(22.2,180.8)} m 350 100 l 350 110 l 360 110 l 360 100 m 360 100 m 200 130 l 200 140 l 210 140 l 210 130 m 210 130 m 100 320 l 100 330 l 110 330 l 110 320 m 110 320 m 230 80 l 230 90 l 240 90 l 240 80 m 240 80 m 240 110 l 240 120 l 250 120 l 250 110 m 250 110 m 220 230 l 220 240 l 230 240 l 230 230 m 230 230 m 120 90 l 120 100 l 130 100 l 130 90 m 130 90 m 360 60 l 360 70 l 370 70 l 370 60 m 370 60 m 140 110 l 140 120 l 150 120 l 150 110 m 150 110 m 190 340 l 190 350 l 200 350 l 200 340 m 200 340 m 180 50 l 180 60 l 190 60 l 190 50 m 190 50 m 290 190 l 290 200 l 300 200 l 300 190 m 300 190 m 170 240 l 170 250 l 180 250 l 180 240 m 180 240 m 300 160 l 300 170 l 310 170 l 310 160 m 310 160 m 330 210 l 330 220 l 340 220 l 340 210 m 340 210 m 70 60 l 70 70 l 80 70 l 80 60 m 80 60 m 240 360 l 240 370 l 250 370 l 250 360 m 250 360 m 230 170 l 230 180 l 240 180 l 240 170 m 240 170 m 210 170 l 210 180 l 220 180 l 220 170 m 220 170 m 350 250 l 350 260 l 360 260 l 360 250 m 360 250 m 240 180 l 240 190 l 250 190 l 250 180 m 250 180 m 220 140 l 220 150 l 230 150 l 230 140 m 230 140 m 270 230 l 270 240 l 280 240 l 280 230 m 280 230 m 250 190 l 250 200 l 260 200 l 260 190 m 260 190 m 120 160 l 120 170 l 130 170 l 130 160 m 130 160 m 360 290 l 360 300 l 370 300 l 370 290 m 370 290 m 260 160 l 260 170 l 270 170 l 270 160 m 270 160 m 270 130 l 270 140 l 280 140 l 280 130 m 280 130 m 120 220 l 120 230 l 130 230 l 130 220 m 130 220 m 150 190 l 150 200 l 160 200 l 160 190 m 160 190 m 160 120 l 160 130 l 170 130 l 170 120 m 170 120 m 170 170 l 170 180 l 180 180 l 180 170 m 180 170 m 40 180 l 40 190 l 50 190 l 50 180 m 50 180 m 310 100 l 310 110 l 320 110 l 320 100 m 320 100 m 60 160 l 60 170 l 70 170 l 70 160 m 70 160 m 330 80 l 330 90 l 340 90 l 340 80 m 340 80 m 70 210 l 70 220 l 80 220 l 80 210 m 80 210 m 100 180 l 100 190 l 110 190 l 110 180 m 110 180 m 110 190 l 110 200 l 120 200 l 120 190 m 120 190 m 350 220 l 350 230 l 360 230 l 360 220 m 360 220 m 220 90 l 220 100 l 230 100 l 230 90 m 230 90 m 100 360 l 100 370 l 110 370 l 110 360 m 110 360 m 250 120 l 250 130 l 260 130 l 260 120 m 260 120 m 210 280 l 210 290 l 220 290 l 220 280 m 220 280 m 260 110 l 260 120 l 270 120 l 270 110 m 270 110 m 140 130 l 140 140 l 150 140 l 150 130 m 150 130 m 120 290 l 120 300 l 130 300 l 130 290 m 130 290 m 280 320 l 280 330 l 290 330 l 290 320 m 290 320 m 180 230 l 180 240 l 190 240 l 190 230 m 190 230 m 140 230 l 140 240 l 150 240 l 150 230 m 150 230 m 190 140 l 190 150 l 200 150 l 200 140 m 200 140 m 150 300 l 150 310 l 160 310 l 160 300 m 160 300 m 300 340 l 300 350 l 310 350 l 310 340 m 310 340 m 40 90 l 40 100 l 50 100 l 50 90 m 50 90 m 280 60 l 280 70 l 290 70 l 290 60 m 290 60 m 310 350 l 310 360 l 320 360 l 320 350 m 320 350 m 50 40 l 50 50 l 60 50 l 60 40 m 60 40 m 80 150 l 80 160 l 90 160 l 90 150 m 90 150 m 320 280 l 320 290 l 330 290 l 330 280 m 330 280 m 90 140 l 90 150 l 100 150 l 100 140 m 100 140 m 100 50 l 100 60 l 110 60 l 110 50 m 110 50 m 340 60 l 340 70 l 350 70 l 350 60 m 350 60 m 230 310 l 230 320 l 240 320 l 240 310 m 240 310 m 350 310 l 350 320 l 360 320 l 360 310 m 360 310 m 100 310 l 100 320 l 110 320 l 110 310 m 110 310 m 230 50 l 230 60 l 240 60 l 240 50 m 240 50 m 360 270 l 360 280 l 370 280 l 370 270 m 370 270 m 220 260 l 220 270 l 230 270 l 230 260 m 230 260 m 160 360 l 160 370 l 170 370 l 170 360 m 170 360 m 120 40 l 120 50 l 130 50 l 130 40 m 130 40 m 140 300 l 140 310 l 150 310 l 150 300 m 150 300 m 40 320 l 40 330 l 50 330 l 50 320 m 50 320 m 160 240 l 160 250 l 170 250 l 170 240 m 170 240 m 310 240 l 310 250 l 320 250 l 320 240 m 320 240 m 170 290 l 170 300 l 180 300 l 180 290 m 180 290 m 320 270 l 320 280 l 330 280 l 330 270 m 330 270 m 60 340 l 60 350 l 70 350 l 70 340 m 70 340 m 300 70 l 300 80 l 310 80 l 310 70 m 310 70 m 330 260 l 330 270 l 340 270 l 340 260 m 340 260 m 80 280 l 80 290 l 90 290 l 90 280 m 90 280 m 230 360 l 230 370 l 240 370 l 240 360 m 240 360 m 350 40 l 350 50 l 360 50 l 360 40 m 360 40 m 100 220 l 100 230 l 110 230 l 110 220 m 110 220 m 260 210 l 260 220 l 270 220 l 270 210 m 270 210 m 270 240 l 270 250 l 280 250 l 280 240 m 280 240 m 250 80 l 250 90 l 260 90 l 260 80 m 260 80 m 120 110 l 120 120 l 130 120 l 130 110 m 130 110 m 360 80 l 360 90 l 370 90 l 370 80 m 370 80 m 260 150 l 260 160 l 270 160 l 270 150 m 270 150 m 190 280 l 190 290 l 200 290 l 200 280 m 200 280 m 280 200 l 280 210 l 290 210 l 290 200 m 290 200 m 180 110 l 180 120 l 190 120 l 190 110 m 190 110 m 160 230 l 160 240 l 170 240 l 170 230 m 170 230 m 50 220 l 50 230 l 60 230 l 60 220 m 60 220 m 170 220 l 170 230 l 180 230 l 180 220 m 180 220 m 300 140 l 300 150 l 310 150 l 310 140 m 310 140 m 70 80 l 70 90 l 80 90 l 80 80 m 80 80 m 320 80 l 320 90 l 330 90 l 330 80 m 330 80 m 350 130 l 350 140 l 360 140 l 360 130 m 360 130 m 90 100 l 90 110 l 100 110 l 100 100 m 100 100 m 330 130 l 330 140 l 340 140 l 340 130 m 340 130 m 210 70 l 210 80 l 220 80 l 220 70 m 220 70 m 350 270 l 350 280 l 360 280 l 360 270 m 360 270 m 90 360 l 90 370 l 100 370 l 100 360 m 100 360 m 240 120 l 240 130 l 250 130 l 250 120 m 250 120 m 220 120 l 220 130 l 230 130 l 230 120 m 230 120 m 270 150 l 270 160 l 280 160 l 280 150 m 280 150 m 130 210 l 130 220 l 140 220 l 140 210 m 140 210 m 180 180 l 180 190 l 190 190 l 190 180 m 190 180 m 290 260 l 290 270 l 300 270 l 300 260 m 300 260 m 190 190 l 190 200 l 200 200 l 200 190 m 200 190 m 170 150 l 170 160 l 180 160 l 180 150 m 180 150 m 40 40 l 40 50 l 50 50 l 50 40 m 50 40 m 310 280 l 310 290 l 320 290 l 320 280 m 320 280 m 50 170 l 50 180 l 60 180 l 60 170 m 60 170 m 80 180 l 80 190 l 90 190 l 90 180 m 90 180 m 320 70 l 320 80 l 330 80 l 330 70 m 330 70 m 60 140 l 60 150 l 70 150 l 70 140 m 70 140 m 330 60 l 330 70 l 340 70 l 340 60 m 340 60 m 70 230 l 70 240 l 80 240 l 80 230 m 80 230 m 100 160 l 100 170 l 110 170 l 110 160 m 110 160 m 340 290 l 340 300 l 350 300 l 350 290 m 350 290 m 110 130 l 110 140 l 120 140 l 120 130 m 120 130 m 240 270 l 240 280 l 250 280 l 250 270 m 250 270 m 200 350 l 200 360 l 210 360 l 210 350 m 210 350 m 250 260 l 250 270 l 260 270 l 260 260 m 260 260 m 210 340 l 210 350 l 220 350 l 220 340 m 220 340 m 260 90 l 260 100 l 270 100 l 270 90 m 270 90 m 220 330 l 220 340 l 230 340 l 230 330 m 230 330 m 270 40 l 270 50 l 280 50 l 280 40 m 280 40 m 360 120 l 360 130 l 370 130 l 370 120 m 370 120 m 130 300 l 130 310 l 140 310 l 140 300 m 140 300 m 280 340 l 280 350 l 290 350 l 290 340 m 290 340 m 180 210 l 180 220 l 190 220 l 190 210 m 190 210 m 190 240 l 190 250 l 200 250 l 200 240 m 200 240 m 320 360 l 320 370 l 330 370 l 330 360 m 330 360 m 300 320 l 300 330 l 310 330 l 310 320 m 310 320 m 160 350 l 160 360 l 170 360 l 170 350 m 170 350 m 50 100 l 50 110 l 60 110 l 60 100 m 60 100 m 320 300 l 320 310 l 330 310 l 330 300 m 330 300 m 300 100 l 300 110 l 310 110 l 310 100 m 310 100 m 330 310 l 330 320 l 340 320 l 340 310 m 340 310 m 340 40 l 340 50 l 350 50 l 350 40 m 350 40 m 230 330 l 230 340 l 240 340 l 240 330 m 240 330 m 300 360 l 300 370 l 310 370 l 310 360 m 310 360 m 240 340 l 240 350 l 250 350 l 250 340 m 250 340 m 200 260 l 200 270 l 210 270 l 210 260 m 210 260 m 250 350 l 250 360 l 260 360 l 260 350 m 260 350 m 230 70 l 230 80 l 240 80 l 240 70 m 240 70 m 210 270 l 210 280 l 220 280 l 220 270 m 220 270 m 260 320 l 260 330 l 270 330 l 270 320 m 270 320 m 220 240 l 220 250 l 230 250 l 230 240 m 230 240 m 270 290 l 270 300 l 280 300 l 280 290 m 280 290 m 130 70 l 130 80 l 140 80 l 140 70 m 140 70 m 180 280 l 180 290 l 190 290 l 190 280 m 190 280 m 140 280 l 140 290 l 150 290 l 150 280 m 150 280 m 150 250 l 150 260 l 160 260 l 160 250 m 160 250 m 40 340 l 40 350 l 50 350 l 50 340 m 50 340 m 180 60 l 180 70 l 190 70 l 190 60 m 190 60 m 160 260 l 160 270 l 170 270 l 170 260 m 170 260 m 170 270 l 170 280 l 180 280 l 180 270 m 180 270 m 60 320 l 60 330 l 70 330 l 70 320 m 70 320 m 300 50 l 300 60 l 310 60 l 310 50 m 310 50 m 330 240 l 330 250 l 340 250 l 340 240 m 340 240 m 310 160 l 310 170 l 320 170 l 320 160 m 320 160 m 80 300 l 80 310 l 90 310 l 90 300 m 90 300 m 320 190 l 320 200 l 330 200 l 330 190 m 330 190 m 100 200 l 100 210 l 110 210 l 110 200 m 110 200 m 250 280 l 250 290 l 260 290 l 260 280 m 260 280 m 80 360 l 80 370 l 90 370 l 90 360 m 90 360 m 210 120 l 210 130 l 220 130 l 220 120 m 220 120 m 110 250 l 110 260 l 120 260 l 120 250 m 120 250 m 220 190 l 220 200 l 230 200 l 230 190 m 230 190 m 270 260 l 270 270 l 280 270 l 280 260 m 280 260 m 250 60 l 250 70 l 260 70 l 260 60 m 260 60 m 360 100 l 360 110 l 370 110 l 370 100 m 370 100 m 260 130 l 260 140 l 270 140 l 270 130 m 270 130 m 130 80 l 130 90 l 140 90 l 140 80 m 140 80 m 270 160 l 270 170 l 280 170 l 280 160 m 280 160 m 140 70 l 140 80 l 150 80 l 150 70 m 150 70 m 190 300 l 190 310 l 200 310 l 200 300 m 200 300 m 40 250 l 40 260 l 50 260 l 50 250 m 50 250 m 50 200 l 50 210 l 60 210 l 60 200 m 60 200 m 290 230 l 290 240 l 300 240 l 300 230 m 300 230 m 190 40 l 190 50 l 200 50 l 200 40 m 200 40 m 170 200 l 170 210 l 180 210 l 180 200 m 180 200 m 60 270 l 60 280 l 70 280 l 70 270 m 70 270 m 300 120 l 300 130 l 310 130 l 310 120 m 310 120 m 40 150 l 40 160 l 50 160 l 50 150 m 50 150 m 70 100 l 70 110 l 80 110 l 80 100 m 80 100 m 320 100 l 320 110 l 330 110 l 330 100 m 330 100 m 200 80 l 200 90 l 210 90 l 210 80 m 210 80 m 240 140 l 240 150 l 250 150 l 250 140 m 250 140 m 220 100 l 220 110 l 230 110 l 230 100 m 230 100 m 140 360 l 140 370 l 150 370 l 150 360 m 150 360 m 130 170 l 130 180 l 140 180 l 140 170 m 140 170 m 270 90 l 270 100 l 280 100 l 280 90 m 280 90 m 140 140 l 140 150 l 150 150 l 150 140 m 150 140 m 120 260 l 120 270 l 130 270 l 130 260 m 130 260 m 280 290 l 280 300 l 290 300 l 290 290 m 290 290 m 150 290 l 150 300 l 160 300 l 160 290 m 160 290 m 40 60 l 40 70 l 50 70 l 50 60 m 50 60 m 70 190 l 70 200 l 80 200 l 80 190 m 80 190 m 80 120 l 80 130 l 90 130 l 90 120 m 90 120 m 320 330 l 320 340 l 330 340 l 330 330 m 330 330 m
+Dialogue: 1,0:00:35.10,0:00:40.10,*Default,NTP,0000,0000,0000,,{\fad(500,500)\an4\bord0\shad0\fs12\fn方正大黑_GBK\alpha&44\pos(70,211.2)}打開微信   掃描左側二維碼\N或搜索公眾號:{\c&HEBAE00&}    美劇炸了\N{\c&HFFFFFF&}了解最新影視資訊字幕信息
+Dialogue: 1,0:00:35.10,0:00:45.10,*Default,NTP,0000,0000,0000,,{\fad(500,500)\an4\bord0\shad0\fscx380\fscy380\alpha&44\pos(21,212)}■
+Dialogue: 0,0:01:26.32,0:01:27.39,*Default,NTP,0000,0000,0000,,{\pos(183,74)\fn方正准圆_GBK\fs48}{\fad(400,400)}摩  登
+Dialogue: 0,0:01:26.32,0:01:27.39,*Default,NTP,0000,0000,0000,,{\pos(183,240)\fn方正准圆_GBK\fs48\c&H0497F2&}{\fad(400,400)}家  庭
+Dialogue: 0,0:01:26.81,0:01:29.27,*Default,NTP,0000,0000,0000,,{\pos(304,242)\fn书体坊赵九江钢笔行书\c&HFF00FF&\fs22}第九季 第一集 
+Dialogue: 0,0:00:01.47,0:00:04.15,*Default,NTP,0000,0000,0000,,孩子們  吃早餐了  盧克  吃點水果吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Kids, breakfast! Luke, why don't you have some fruit?
+Dialogue: 0,0:00:04.15,0:00:05.21,*Default,NTP,0000,0000,0000,,不用了  謝謝\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Nah, I'm good.
+Dialogue: 0,0:00:07.45,0:00:09.03,*Default,NTP,0000,0000,0000,,行行行  我吃行了吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Fine. I'll have some.
+Dialogue: 0,0:00:09.05,0:00:10.71,*Default,NTP,0000,0000,0000,,菲爾  開慢一點\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Phil! Slow down!
+Dialogue: 0,0:00:10.79,0:00:12.11,*Default,NTP,0000,0000,0000,,不好意思  克萊爾\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm sorry, Claire.
+Dialogue: 0,0:00:12.11,0:00:14.56,*Default,NTP,0000,0000,0000,,跟在家里不同  這里我是船長我說了算\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Unlike at home, I'm the captain here.
+Dialogue: 0,0:00:18.58,0:00:20.21,*Default,NTP,0000,0000,0000,,我靠  菲爾  別鬧了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Damn it, Phil, knock it off!
+Dialogue: 0,0:00:20.52,0:00:21.49,*Default,NTP,0000,0000,0000,,收到\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Copy that.
+Dialogue: 0,0:00:22.35,0:00:23.60,*Default,NTP,0000,0000,0000,,我挺喜歡這個的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You know, I like having these.
+Dialogue: 0,0:00:23.60,0:00:24.91,*Default,NTP,0000,0000,0000,,咱們應該買幾臺放家里用\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We should get some for the house.
+Dialogue: 0,0:00:24.91,0:00:27.00,*Default,NTP,0000,0000,0000,,不行  你別想每天用講對機\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}No, you're not going to ask me "What time is lunch?"
+Dialogue: 0,0:00:27.00,0:00:28.77,*Default,NTP,0000,0000,0000,,問我"幾點吃午飯"\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}every day through a talkie-walkie.
+Dialogue: 0,0:00:30.63,0:00:32.17,*Default,NTP,0000,0000,0000,,小卡  我們得談談這個\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Cam, we need to talk about this.
+Dialogue: 0,0:00:32.17,0:00:33.97,*Default,NTP,0000,0000,0000,,我們家也有這種燈\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We -- We have these lamps at home.
+Dialogue: 0,0:00:33.97,0:00:35.27,*Default,NTP,0000,0000,0000,,我們竟然用的船燈\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Okay, we have boat lamps.
+Dialogue: 0,0:00:35.27,0:00:36.85,*Default,NTP,0000,0000,0000,,對啊  感覺好受人肯定\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I know. It's so validating.
+Dialogue: 0,0:00:36.85,0:00:39.22,*Default,NTP,0000,0000,0000,,就像那次我們在狗糧廣告里\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's like that time we saw our can opener
+Dialogue: 0,0:00:39.22,0:00:41.13,*Default,NTP,0000,0000,0000,,看到咱家的開罐器一樣\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}in that dog-food commercial.
+Dialogue: 0,0:00:41.49,0:00:42.65,*Default,NTP,0000,0000,0000,,我們租了一輛船屋\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We rented a houseboat.
+Dialogue: 0,0:00:42.65,0:00:44.44,*Default,NTP,0000,0000,0000,,我爸讓我們來游湖\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}My dad wanted us to take a big lake trip
+Dialogue: 0,0:00:44.44,0:00:46.80,*Default,NTP,0000,0000,0000,,好能觀賞到99年來首次的日全食\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}so we could see the first total eclipse in 99 years.
+Dialogue: 0,0:00:46.80,0:00:47.76,*Default,NTP,0000,0000,0000,,從小在農場長大\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You know, growing up on a farm,
+Dialogue: 0,0:00:47.76,0:00:49.69,*Default,NTP,0000,0000,0000,,我一直幻想在湖上生活\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I always fantasized about lake life.
+Dialogue: 0,0:00:49.69,0:00:51.35,*Default,NTP,0000,0000,0000,,對啊  誰都可以到湖里玩\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Yeah. You know, ?anyone can go to the lake.
+Dialogue: 0,0:00:51.35,0:00:53.29,*Default,NTP,0000,0000,0000,,只有精英名流才能在湖面上睡覺\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Only the elite can sleep on it.
+Dialogue: 0,0:00:53.30,0:00:55.05,*Default,NTP,0000,0000,0000,,以前小的時候  每年夏天\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}My parents used to take Claire and me
+Dialogue: 0,0:00:55.05,0:00:56.53,*Default,NTP,0000,0000,0000,,爸媽都會帶我和克萊爾到湖上玩\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}every summer when we were kids.
+Dialogue: 0,0:00:56.53,0:00:59.36,*Default,NTP,0000,0000,0000,,我做夢都沒想到我會嫁入一個湖上家族\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, I just never dreamed I would marry into a lake family.
+Dialogue: 0,0:01:00.09,0:01:01.95,*Default,NTP,0000,0000,0000,,我們家也用這個枕頭\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We have this pillow, too.
+Dialogue: 0,0:01:01.95,0:01:03.56,*Default,NTP,0000,0000,0000,,我開始質疑我們的品味了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm beginning to question our taste.
+Dialogue: 0,0:01:03.57,0:01:07.08,*Default,NTP,0000,0000,0000,,別傻了  我們品味可好了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, don't be ridiculous. We have great taste.
+Dialogue: 0,0:01:07.71,0:01:08.61,*Default,NTP,0000,0000,0000,,你這是什么鬼\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What's all this, then?
+Dialogue: 0,0:01:08.61,0:01:10.62,*Default,NTP,0000,0000,0000,,醫生說了  我服用抗生素期間\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}The doctor said absolutely no sun
+Dialogue: 0,0:01:10.62,0:01:11.99,*Default,NTP,0000,0000,0000,,絕對不能曬太陽\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}while I'm on these antibiotics.
+Dialogue: 0,0:01:11.99,0:01:13.06,*Default,NTP,0000,0000,0000,,曬到會怎樣\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And what would happen?
+Dialogue: 0,0:01:13.06,0:01:14.36,*Default,NTP,0000,0000,0000,,因為如果不會危及生命\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Because if it's anything short of death,
+Dialogue: 0,0:01:14.36,0:01:16.50,*Default,NTP,0000,0000,0000,,我覺得你都應該賭一把\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I-I think you should risk it.
+Dialogue: 0,0:01:29.61,0:01:32.35,*Default,NTP,0000,0000,0000,,-早上好  -早安  有人餓了嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Morning. - Good Morning! Who's hungry?
+Dialogue: 0,0:01:32.35,0:01:33.60,*Default,NTP,0000,0000,0000,,曼尼  你的雞蛋要什么吃法\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Manny, how do you take your eggs? 
+Dialogue: 0,0:01:33.60,0:01:34.80,*Default,NTP,0000,0000,0000,,吃上帝創造出來的原味\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Like God made 'em.
+Dialogue: 0,0:01:38.44,0:01:39.81,*Default,NTP,0000,0000,0000,,曼尼  你在干嘛\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Manny, what are you doing?
+Dialogue: 0,0:01:39.88,0:01:41.03,*Default,NTP,0000,0000,0000,,這不是曼尼\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}This isn't Manny.
+Dialogue: 0,0:01:41.04,0:01:42.20,*Default,NTP,0000,0000,0000,,是曼尼爾\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's Manuel.
+Dialogue: 0,0:01:42.20,0:01:44.25,*Default,NTP,0000,0000,0000,,他在試著為上大學打造新人設\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}He's trying to reinvent himself for college.
+Dialogue: 0,0:01:44.25,0:01:46.29,*Default,NTP,0000,0000,0000,,他想變成強壯安靜的類型\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}He's going for a strong, silent type.
+Dialogue: 0,0:01:46.29,0:01:48.33,*Default,NTP,0000,0000,0000,,別試圖定義我\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}?Hey, don't try to define me, man.
+Dialogue: 0,0:01:48.88,0:01:51.05,*Default,NTP,0000,0000,0000,,"曼尼爾"只能撐個五分鐘\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}"Manuel"'s gonna last five minutes. 
+Dialogue: 0,0:01:52.09,0:01:53.10,*Default,NTP,0000,0000,0000,,爺們就是爺們  你說也沒用\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It is what it is, man.
+Dialogue: 0,0:01:53.10,0:01:54.38,*Default,NTP,0000,0000,0000,,好了  大家聽好了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}All right, everybody, listen up.
+Dialogue: 0,0:01:54.44,0:01:56.81,*Default,NTP,0000,0000,0000,,-日蝕發生的確切時間是...  -我們知道\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- The eclipse is happening at exactly -- - We know, we know, we know.
+Dialogue: 0,0:01:56.81,0:01:58.23,*Default,NTP,0000,0000,0000,,-我們知道發生的確切時間  爸爸  -對\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- We know exactly when it's happening, Dad. - ?Yeah.
+Dialogue: 0,0:01:58.23,0:01:58.83,*Default,NTP,0000,0000,0000,,你說過了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You told us.
+Dialogue: 0,0:01:58.83,0:02:00.13,*Default,NTP,0000,0000,0000,,那到時一定要回來這里\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Then just make sure you get back here
+Dialogue: 0,0:02:00.13,0:02:01.91,*Default,NTP,0000,0000,0000,,-我們才能一起觀看  -沒問題\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- so we can watch it together. - No problem.
+Dialogue: 0,0:02:01.91,0:02:04.25,*Default,NTP,0000,0000,0000,,爸爸  你認識"只是衣柜"的休·鄧肯嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Hey, Dad, you know Hugh Duncan from Just Closets?
+Dialogue: 0,0:02:04.25,0:02:05.73,*Default,NTP,0000,0000,0000,,那個管衣柜叫"衣櫥"的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}That pretentious half-Brit
+Dialogue: 0,0:02:05.73,0:02:07.61,*Default,NTP,0000,0000,0000,,做作的半英國佬嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}that refers to closets as "wardrobes"?
+Dialogue: 0,0:02:07.61,0:02:08.31,*Default,NTP,0000,0000,0000,,他去世了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}He died.
+Dialogue: 0,0:02:08.31,0:02:10.11,*Default,NTP,0000,0000,0000,,我勒個去  我一直挺喜歡他的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Son of a gun. I always liked him.
+Dialogue: 0,0:02:10.11,0:02:11.20,*Default,NTP,0000,0000,0000,,發生這種事\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Yeah, something like that happens
+Dialogue: 0,0:02:11.20,0:02:13.32,*Default,NTP,0000,0000,0000,,會讓你意識到生命有多寶貴\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}makes you realize how precious life is, huh?
+Dialogue: 0,0:02:13.91,0:02:15.13,*Default,NTP,0000,0000,0000,,早上好  各位家人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Morning, fam!
+Dialogue: 0,0:02:15.92,0:02:17.07,*Default,NTP,0000,0000,0000,,誰快來殺了我吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Somebody kill me.
+Dialogue: 0,0:02:17.36,0:02:18.76,*Default,NTP,0000,0000,0000,,本和我已經在一起幾個月了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Ben and I have been dating a few months now,
+Dialogue: 0,0:02:18.76,0:02:20.22,*Default,NTP,0000,0000,0000,,一切進展得很順利\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and things have been going so well,
+Dialogue: 0,0:02:20.22,0:02:22.37,*Default,NTP,0000,0000,0000,,于是我決定邀請他參加我們的家庭旅行\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I decided to invite him on our family vacation.
+Dialogue: 0,0:02:22.52,0:02:23.64,*Default,NTP,0000,0000,0000,,我們知道需要...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We knew it would take some --
+Dialogue: 0,0:02:23.71,0:02:25.31,*Default,NTP,0000,0000,0000,,聽你說話再久我都不會膩\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I could listen to you talk forever.
+Dialogue: 0,0:02:26.74,0:02:28.35,*Default,NTP,0000,0000,0000,,我們知道說服他們需要費一番功夫\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We knew it would take some convincing.
+Dialogue: 0,0:02:28.35,0:02:30.60,*Default,NTP,0000,0000,0000,,我每天都要在辦公室看到本那張蠢臉\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's bad enough that I have to see Ben's stupid face
+Dialogue: 0,0:02:30.60,0:02:31.59,*Default,NTP,0000,0000,0000,,已經很糟心了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}at the office every day.
+Dialogue: 0,0:02:31.59,0:02:32.92,*Default,NTP,0000,0000,0000,,你竟然還想帶他參加我們的旅行\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You want to bring him on our trip?
+Dialogue: 0,0:02:32.92,0:02:33.95,*Default,NTP,0000,0000,0000,,就因為他讓你心煩\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Just because he bugs you
+Dialogue: 0,0:02:33.95,0:02:35.85,*Default,NTP,0000,0000,0000,,不代表這就會毀了你的假期\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}doesn't mean this will ruin your vacation.
+Dialogue: 0,0:02:35.86,0:02:38.32,*Default,NTP,0000,0000,0000,,他就是我需要度假的罪魁禍首之一\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}He's a huge reason why I need a vacation!
+Dialogue: 0,0:02:40.17,0:02:41.50,*Default,NTP,0000,0000,0000,,我覺得你們說得都有道理\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I mean, I can see both sides.
+Dialogue: 0,0:02:43.95,0:02:46.40,*Default,NTP,0000,0000,0000,,有誰知道這些煎餅是不是無麩質的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Ohhh. Does anyone know if these pancakes are gluten-free?
+Dialogue: 0,0:02:46.40,0:02:48.01,*Default,NTP,0000,0000,0000,,-我受不了了  -什么  怎么了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- I can't! - ?Why? What's wrong?
+Dialogue: 0,0:02:48.01,0:02:51.00,*Default,NTP,0000,0000,0000,,我受不了再聽你聊麩質\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I can't listen to you talk about gluten anymore!
+Dialogue: 0,0:02:51.00,0:02:53.21,*Default,NTP,0000,0000,0000,,或者牙齒保持器和氣傳過敏原\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Or mouth guards or airborne allergens
+Dialogue: 0,0:02:53.21,0:02:55.72,*Default,NTP,0000,0000,0000,,或任何你其他的怪毛病了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}or any of your other weird afflictions!
+Dialogue: 0,0:02:55.72,0:02:58.13,*Default,NTP,0000,0000,0000,,-有誰看到我的大帽子了嗎  -沒有\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Has anyone seen my big hat? - ?No.
+Dialogue: 0,0:02:58.13,0:03:00.08,*Default,NTP,0000,0000,0000,,其實呢  一起旅行就是個大錯誤\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You know what? Traveling together was a big mistake.
+Dialogue: 0,0:03:00.08,0:03:01.66,*Default,NTP,0000,0000,0000,,我們就  各玩各的吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Let's just... do our own thing.
+Dialogue: 0,0:03:03.93,0:03:04.72,*Default,NTP,0000,0000,0000,,好吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}A-all right.
+Dialogue: 0,0:03:06.57,0:03:07.67,*Default,NTP,0000,0000,0000,,你們今天有什么安排\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What are you guys up to today?
+Dialogue: 0,0:03:07.67,0:03:09.26,*Default,NTP,0000,0000,0000,,-劃水  -船上的事\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Water skiing. - Boat stuff.
+Dialogue: 0,0:03:09.26,0:03:10.73,*Default,NTP,0000,0000,0000,,不是吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Ay, no.
+Dialogue: 0,0:03:10.94,0:03:11.94,*Default,NTP,0000,0000,0000,,這是什么東西\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What am I looking at?
+Dialogue: 0,0:03:11.94,0:03:15.04,*Default,NTP,0000,0000,0000,,放輕松  你們都表現得像是沒見過長袍一樣\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Okay, relax. You all act like you've never seen a caftan before.
+Dialogue: 0,0:03:15.04,0:03:17.60,*Default,NTP,0000,0000,0000,,我今天需要能透氣的全包式服裝\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I just needed full breathable coverage today.
+Dialogue: 0,0:03:17.61,0:03:19.97,*Default,NTP,0000,0000,0000,,還能看起來這么好看  簡直賺到\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}The fact that it looks so great is just a bonus.
+Dialogue: 0,0:03:20.75,0:03:22.62,*Default,NTP,0000,0000,0000,,-這是什么  -卡通《泡泡孔雀魚》\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- What's that? - ?"Groovy Guppies."
+Dialogue: 0,0:03:22.62,0:03:24.60,*Default,NTP,0000,0000,0000,,我要連看上一季\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm gonna binge-watch the last season.
+Dialogue: 0,0:03:24.60,0:03:25.73,*Default,NTP,0000,0000,0000,,我都沒聽過這節目\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I never heard of it.
+Dialogue: 0,0:03:25.73,0:03:28.02,*Default,NTP,0000,0000,0000,,翹掉你媽要帶你去做的活動\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Get out of whatever your mommy's got you doing.
+Dialogue: 0,0:03:28.05,0:03:30.42,*Default,NTP,0000,0000,0000,,你的人生即將改變\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Your life is about to change.
+Dialogue: 0,0:03:30.42,0:03:32.88,*Default,NTP,0000,0000,0000,,我要下船到那家小商店買墨鏡\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm going down to the little store to buy some sunglasses.
+Dialogue: 0,0:03:32.88,0:03:34.02,*Default,NTP,0000,0000,0000,,我想買好玩的款式\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm thinking something fun.
+Dialogue: 0,0:03:34.02,0:03:36.28,*Default,NTP,0000,0000,0000,,好吧  別買太花哨艷俗的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}All right. Well, don't get anything too garish.
+Dialogue: 0,0:03:38.76,0:03:41.11,*Default,NTP,0000,0000,0000,,尤物  島上有派對\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Hey, sexy! Party on the island!
+Dialogue: 0,0:03:41.11,0:03:42.16,*Default,NTP,0000,0000,0000,,來玩吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Come by!
+Dialogue: 0,0:03:42.94,0:03:43.87,*Default,NTP,0000,0000,0000,,-贊  -正點\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Yum! - Yum!?
+Dialogue: 0,0:03:44.56,0:03:45.79,*Default,NTP,0000,0000,0000,,-你在干什么  -剛才那是什么\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- What are you doing? - What was that?
+Dialogue: 0,0:03:45.81,0:03:47.00,*Default,NTP,0000,0000,0000,,-那是個男生  -那是個女生\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- That was a boy! - That was a girl!
+Dialogue: 0,0:03:47.02,0:03:48.37,*Default,NTP,0000,0000,0000,,-你在說什么  -你在說什么\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- What are you talking about?! - What are you talking about?!
+Dialogue: 0,0:03:48.37,0:03:49.62,*Default,NTP,0000,0000,0000,,不管剛才那是什么\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Whatever that was,
+Dialogue: 0,0:03:49.63,0:03:52.26,*Default,NTP,0000,0000,0000,,我們都要在本找到我之前去他或她的派對\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}we're going to his/her party before Ben finds me.
+Dialogue: 0,0:03:52.26,0:03:54.55,*Default,NTP,0000,0000,0000,,鄧菲隊  五人組  你們準備好出發了嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Team Dunphy, D to the five. You guys ready to go?
+Dialogue: 0,0:03:54.55,0:03:55.69,*Default,NTP,0000,0000,0000,,你們想做什么\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Yeah, what do you feel like doing?
+Dialogue: 0,0:03:55.69,0:03:56.65,*Default,NTP,0000,0000,0000,,我們剛才在想也許可以去遠足\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We were thinking maybe a hike?
+Dialogue: 0,0:03:56.65,0:03:58.32,*Default,NTP,0000,0000,0000,,看看植物  動物  還有...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}A little flora, fauna, and --
+Dialogue: 0,0:03:58.32,0:03:59.60,*Default,NTP,0000,0000,0000,,別了吧  我們要去參加派對\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Forget it. We're going to a party.
+Dialogue: 0,0:03:59.60,0:04:00.89,*Default,NTP,0000,0000,0000,,但你們如果想找些好玩活動\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But if you're looking for something fun,
+Dialogue: 0,0:04:00.89,0:04:02.19,*Default,NTP,0000,0000,0000,,租賃處那人給了我們個宣傳冊\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}the rental guy gave us this pamphlet.
+Dialogue: 0,0:04:02.19,0:04:03.76,*Default,NTP,0000,0000,0000,,謝了  我們已經有一個了  不過...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Thanks. We already got one, but --
+Dialogue: 0,0:04:03.76,0:04:05.36,*Default,NTP,0000,0000,0000,,你們的和我們的不一樣\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh. Yours is different.
+Dialogue: 0,0:04:05.41,0:04:07.15,*Default,NTP,0000,0000,0000,,帆傘  水上滑板\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Parasailing, wakeboarding...
+Dialogue: 0,0:04:07.15,0:04:08.19,*Default,NTP,0000,0000,0000,,水上噴氣背包\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}jetpacking?
+Dialogue: 0,0:04:08.20,0:04:10.55,*Default,NTP,0000,0000,0000,,我們的寫著日出椅上瑜伽\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Ours has sunrise chair yoga,
+Dialogue: 0,0:04:10.55,0:04:12.62,*Default,NTP,0000,0000,0000,,湖岸上畫水彩\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}watercolors at water's edge,
+Dialogue: 0,0:04:12.63,0:04:15.22,*Default,NTP,0000,0000,0000,,還有個叫觀云的活動\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and something called... cloud study?
+Dialogue: 0,0:04:15.22,0:04:16.89,*Default,NTP,0000,0000,0000,,他們給外公的也是那個版本\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Yeah, they gave that one to Grandpa, too.
+Dialogue: 0,0:04:16.89,0:04:17.93,*Default,NTP,0000,0000,0000,,他給我們的是老年人的版本嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We got the old people one?
+Dialogue: 0,0:04:17.93,0:04:20.00,*Default,NTP,0000,0000,0000,,不  他們為什么那么做\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}No! Why would they do that?
+Dialogue: 0,0:04:20.05,0:04:23.79,*Default,NTP,0000,0000,0000,,貌似您二老今天有很多蓬松的云朵可看\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Looks like you guys got some fluffy ones out today.
+Dialogue: 0,0:04:24.25,0:04:25.89,*Default,NTP,0000,0000,0000,,那朵云看起來像只小兔子\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}That one looks like a bunny.
+Dialogue: 0,0:04:25.89,0:04:26.86,*Default,NTP,0000,0000,0000,,真的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, yeah.
+Dialogue: 0,0:04:29.99,0:04:31.75,*Default,NTP,0000,0000,0000,,感覺我們就身在法國圣特羅佩一樣\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Ah. It feels like we're in St. Tropez.
+Dialogue: 0,0:04:32.09,0:04:33.65,*Default,NTP,0000,0000,0000,,我不喜歡湖\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I don't trust lakes.
+Dialogue: 0,0:04:33.89,0:04:37.56,*Default,NTP,0000,0000,0000,,在我老家  這種湖專門用來拋毒棄尸\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Where I come from, this is where we dump drugs and dead bodies.
+Dialogue: 0,0:04:37.56,0:04:38.55,*Default,NTP,0000,0000,0000,,你猜怎么著\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You know what?
+Dialogue: 0,0:04:38.55,0:04:40.99,*Default,NTP,0000,0000,0000,,讓我帶你來一趟小舟觀光\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I am gonna give you a little boat tour
+Dialogue: 0,0:04:40.99,0:04:43.48,*Default,NTP,0000,0000,0000,,向你展示這片湖所有的美好之處\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and show you this lake in all of its glory,
+Dialogue: 0,0:04:43.48,0:04:45.48,*Default,NTP,0000,0000,0000,,但你得抱著開放的心態\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}but you need to keep an open mind.
+Dialogue: 0,0:04:45.49,0:04:46.71,*Default,NTP,0000,0000,0000,,好吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Okay, fine.
+Dialogue: 0,0:04:46.71,0:04:49.89,*Default,NTP,0000,0000,0000,,讓我們環游這片液體墓地吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Let's ride around the liquid graveyard.
+Dialogue: 0,0:04:52.10,0:04:55.69,*Default,NTP,0000,0000,0000,,媽媽  乘小船讓我肚肚疼\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Mama, riding on small boats makes my tummy hurt.
+Dialogue: 0,0:04:55.69,0:04:57.21,*Default,NTP,0000,0000,0000,,我能和莉莉留在這嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Can I stay with Lily?
+Dialogue: 0,0:04:57.21,0:04:58.34,*Default,NTP,0000,0000,0000,,好的  小乖乖\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Si, papi.
+Dialogue: 0,0:05:05.06,0:05:06.93,*Default,NTP,0000,0000,0000,,那是斯科蒂  一個在這湖邊長大的孩子\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It was Scotty -- this local lake kid
+Dialogue: 0,0:05:06.93,0:05:09.01,*Default,NTP,0000,0000,0000,,我13歲度假時與他結識\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I met on vacation when I was 13.
+Dialogue: 0,0:05:09.01,0:05:12.42,*Default,NTP,0000,0000,0000,,我當時瘋狂迷上他了  所以在假期最后一天\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I had a huge crush on him, so on the last day,
+Dialogue: 0,0:05:12.42,0:05:15.69,*Default,NTP,0000,0000,0000,,我決定冒險一搏  吻了他\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I decided to take a chance and I kissed him.
+Dialogue: 0,0:05:15.89,0:05:17.57,*Default,NTP,0000,0000,0000,,那是我第一次親吻男生\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It was my first time ever kissing a boy,
+Dialogue: 0,0:05:17.57,0:05:18.80,*Default,NTP,0000,0000,0000,,所以當他向后躲開\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}so when he pulled away
+Dialogue: 0,0:05:18.80,0:05:21.27,*Default,NTP,0000,0000,0000,,并告訴我他"不感興趣"時\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and said that he wasn't "into this,"
+Dialogue: 0,0:05:21.59,0:05:22.66,*Default,NTP,0000,0000,0000,,我特別羞愧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I was humiliated.
+Dialogue: 0,0:05:22.66,0:05:25.55,*Default,NTP,0000,0000,0000,,顯然我誤讀了一些信號  他是直男\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I mean, I'd obviously misread signals. He was straight.
+Dialogue: 0,0:05:25.55,0:05:28.49,*Default,NTP,0000,0000,0000,,那之后的五年我都沒對任何男生發過攻勢\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It was five years before I ever made a move on a guy again.
+Dialogue: 0,0:05:28.50,0:05:29.88,*Default,NTP,0000,0000,0000,,即便五年后  我也不敢\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And even then, I wouldn't dare
+Dialogue: 0,0:05:29.88,0:05:32.60,*Default,NTP,0000,0000,0000,,除非對方"彎"到有如花蝴蝶一般\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}unless he was basically floating across the room.
+Dialogue: 0,0:05:33.36,0:05:35.03,*Default,NTP,0000,0000,0000,,這就是為什么我現在的老公是...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Which is why I ended up with --
+Dialogue: 0,0:05:35.09,0:05:36.16,*Default,NTP,0000,0000,0000,,你懂的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Well, you know.
+Dialogue: 0,0:05:39.88,0:05:41.02,*Default,NTP,0000,0000,0000,,找到你要的東西了嗎  兄弟\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Finding everything okay, buddy?
+Dialogue: 0,0:05:41.02,0:05:41.78,*Default,NTP,0000,0000,0000,,是的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Yeah.
+Dialogue: 0,0:05:41.78,0:05:43.58,*Default,NTP,0000,0000,0000,,第一次來  有點...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Just, uh, first time here, so, uh...
+Dialogue: 0,0:05:44.04,0:05:45.21,*Default,NTP,0000,0000,0000,,你看起來挺面熟的  我認識你嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You look familiar. Do I know you?
+Dialogue: 0,0:05:45.21,0:05:46.40,*Default,NTP,0000,0000,0000,,不  不不不\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}No! Nah, nah, nah.
+Dialogue: 0,0:05:46.40,0:05:49.59,*Default,NTP,0000,0000,0000,,我只是來買點湖邊必備品\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Just picking up a few, uh, lake essentials.
+Dialogue: 0,0:05:50.71,0:05:51.57,*Default,NTP,0000,0000,0000,,好了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Okay.
+Dialogue: 0,0:05:52.71,0:05:53.88,*Default,NTP,0000,0000,0000,,你要搶我錢嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Are you robbing me?
+Dialogue: 0,0:05:53.88,0:05:55.29,*Default,NTP,0000,0000,0000,,天啊  不\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}God, no. No, um...
+Dialogue: 0,0:05:55.88,0:05:57.88,*Default,NTP,0000,0000,0000,,這樣吧  都拿去吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You know what? Good.
+Dialogue: 0,0:06:00.05,0:06:02.61,*Default,NTP,0000,0000,0000,,我讀了一些臉書上寫給休·鄧肯的悼詞\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I started reading the tributes to Hugh Duncan on Facebook.
+Dialogue: 0,0:06:02.61,0:06:03.96,*Default,NTP,0000,0000,0000,,寫悼詞的人特別多\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}There were a ton of them.
+Dialogue: 0,0:06:03.96,0:06:06.85,*Default,NTP,0000,0000,0000,,人們不停地說他生前是個多好的人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}People going on and on about what a great guy he was.
+Dialogue: 0,0:06:06.99,0:06:09.38,*Default,NTP,0000,0000,0000,,"休爺爺有次給了我一個老式聽診器\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}"Grandpa Hugh once gave me a vintage stethoscope,
+Dialogue: 0,0:06:09.38,0:06:12.59,*Default,NTP,0000,0000,0000,,那激勵我成為了一名兒科腫瘤學家"\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}which inspired me to become a pediatric oncologist."
+Dialogue: 0,0:06:13.18,0:06:15.98,*Default,NTP,0000,0000,0000,,這讓我很好奇我死后別人會怎么說我\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Made me wonder what people will say about me when I'm gone.
+Dialogue: 0,0:06:16.50,0:06:19.32,*Default,NTP,0000,0000,0000,,親愛的  我想把我的天文望遠鏡給你\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Honey, I want you to have my telescope.
+Dialogue: 0,0:06:19.71,0:06:22.33,*Default,NTP,0000,0000,0000,,希望它能激勵你愛上科學\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}May it inspire you to love science.
+Dialogue: 0,0:06:22.60,0:06:23.75,*Default,NTP,0000,0000,0000,,我已經愛科學了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I already love science.
+Dialogue: 0,0:06:23.75,0:06:25.99,*Default,NTP,0000,0000,0000,,我覺得這是你重大的人生轉折點\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}This feels like a real turning point.
+Dialogue: 0,0:06:25.99,0:06:27.79,*Default,NTP,0000,0000,0000,,你有天會想把這段佳話告訴別人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You know, it's a story you'll want to tell people.
+Dialogue: 0,0:06:27.79,0:06:29.97,*Default,NTP,0000,0000,0000,,"他總教導我要有摘星之志"\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}"He always told me to reach for the stars."
+Dialogue: 0,0:06:30.65,0:06:31.52,*Default,NTP,0000,0000,0000,,謝謝您啊\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Thanks?
+Dialogue: 0,0:06:31.56,0:06:33.64,*Default,NTP,0000,0000,0000,,艾麗克斯  你在哪\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Alex! Where are you?
+Dialogue: 0,0:06:33.64,0:06:35.11,*Default,NTP,0000,0000,0000,,是本  告訴他你今天都沒見過我\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Ohh! It's Ben. ?Tell him you haven't seen me.
+Dialogue: 0,0:06:35.11,0:06:36.43,*Default,NTP,0000,0000,0000,,我不想和他說話\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I don't want to talk to him.
+Dialogue: 0,0:06:37.44,0:06:38.36,*Default,NTP,0000,0000,0000,,艾麗克斯\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Alex?
+Dialogue: 0,0:06:39.59,0:06:41.05,*Default,NTP,0000,0000,0000,,我們不過出去幾個小時\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We'll only be gone for a couple hours.
+Dialogue: 0,0:06:41.05,0:06:42.55,*Default,NTP,0000,0000,0000,,喬和莉莉不會有事的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Joe and Lily will be fine.
+Dialogue: 0,0:06:42.74,0:06:43.65,*Default,NTP,0000,0000,0000,,等等  你瞧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, wait. Look.
+Dialogue: 0,0:06:43.65,0:06:45.13,*Default,NTP,0000,0000,0000,,是那個人很好的湖上管家\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}There's that nice lake butler
+Dialogue: 0,0:06:45.13,0:06:47.12,*Default,NTP,0000,0000,0000,,他之前幫我拿過行李\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}that helped me earlier with my bags.
+Dialogue: 0,0:06:47.13,0:06:48.83,*Default,NTP,0000,0000,0000,,先生  先生\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Senor. Senor.
+Dialogue: 0,0:06:48.83,0:06:51.48,*Default,NTP,0000,0000,0000,,你能幫我們看幾個小時孩子嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Could you take care of our kids for a couple of hours?
+Dialogue: 0,0:06:51.48,0:06:54.44,*Default,NTP,0000,0000,0000,,無論你在湖上能掙多少我都付你雙倍\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I will pay you double what you make working for the lake.
+Dialogue: 0,0:06:54.44,0:06:55.40,*Default,NTP,0000,0000,0000,,不是吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Seriously?
+Dialogue: 0,0:06:55.47,0:06:56.45,*Default,NTP,0000,0000,0000,,我們認識的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You know me.
+Dialogue: 0,0:06:56.45,0:06:57.91,*Default,NTP,0000,0000,0000,,我們一起乘車去的機場\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We rode to the airport together.
+Dialogue: 0,0:06:57.91,0:06:59.14,*Default,NTP,0000,0000,0000,,你能不能幫我們看孩子吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Can you watch our kids or not?
+Dialogue: 0,0:06:59.14,0:07:00.45,*Default,NTP,0000,0000,0000,,其實我現在有點...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Actually, I'm kind of, uh --
+Dialogue: 0,0:07:01.22,0:07:02.15,*Default,NTP,0000,0000,0000,,艾麗克斯\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Alex?
+Dialogue: 0,0:07:06.49,0:07:08.42,*Default,NTP,0000,0000,0000,,他們對什么食物過敏嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Any food allergies I should know about?
+Dialogue: 0,0:07:09.86,0:07:12.02,*Default,NTP,0000,0000,0000,,這挺有趣的  就咱倆\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}This is fun -- just the two of us.
+Dialogue: 0,0:07:12.02,0:07:14.75,*Default,NTP,0000,0000,0000,,是啊  這些手杖真是登山神器啊\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Yeah. And the walking sticks are a real game changer.
+Dialogue: 0,0:07:14.75,0:07:17.19,*Default,NTP,0000,0000,0000,,等一下  我們到觀景點了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Hold the phone. We've hit a vista.
+Dialogue: 0,0:07:18.35,0:07:21.83,*Default,NTP,0000,0000,0000,,看來你不是這里唯一的小山雀\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Looks like you're not the only mountain chickadee around here.
+Dialogue: 0,0:07:21.83,0:07:22.93,*Default,NTP,0000,0000,0000,,你發現了一只嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You spotted one?
+Dialogue: 0,0:07:22.93,0:07:25.58,*Default,NTP,0000,0000,0000,,等輪到你時  注意它頸部的黑色羽毛\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}When it's your turn, note her black bib.
+Dialogue: 0,0:07:25.58,0:07:26.58,*Default,NTP,0000,0000,0000,,好的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Okay.
+Dialogue: 0,0:07:28.59,0:07:30.87,*Default,NTP,0000,0000,0000,,-我的天啊  -它是不是好優雅\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Oh, my God. - ?Isn't she majestic?
+Dialogue: 0,0:07:30.87,0:07:32.00,*Default,NTP,0000,0000,0000,,菲爾  我們就是他們\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Phil, we're them.
+Dialogue: 0,0:07:32.00,0:07:34.52,*Default,NTP,0000,0000,0000,,我們和老年人宣傳冊的封面一樣一樣\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We're the cover of ?the old people's pamphlet.
+Dialogue: 0,0:07:36.05,0:07:37.44,*Default,NTP,0000,0000,0000,,這是要"鬧哪樣"\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Well, that's a fine "How do ya do."
+Dialogue: 0,0:07:37.44,0:07:39.26,*Default,NTP,0000,0000,0000,,連冊子上這人都不會說這么過時的話\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, even this guy wouldn't say that!
+Dialogue: 0,0:07:39.26,0:07:40.25,*Default,NTP,0000,0000,0000,,你說得對\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You're right!
+Dialogue: 0,0:07:40.25,0:07:41.83,*Default,NTP,0000,0000,0000,,我們這是怎么了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What is wrong with us?
+Dialogue: 0,0:07:43.38,0:07:44.43,*Default,NTP,0000,0000,0000,,你看\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Look!
+Dialogue: 0,0:07:45.13,0:07:46.73,*Default,NTP,0000,0000,0000,,那才是我們該做的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}That's what we should be doing!
+Dialogue: 0,0:07:46.79,0:07:49.69,*Default,NTP,0000,0000,0000,,我們只要想辦法保持年輕和冒險精神就好\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We just need to find ways to stay young and adventurous.
+Dialogue: 0,0:07:49.69,0:07:50.64,*Default,NTP,0000,0000,0000,,我支持你  親愛的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm with you, honey.
+Dialogue: 0,0:07:50.64,0:07:52.78,*Default,NTP,0000,0000,0000,,-我們走  -太好了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Let's go! - ?Yes! Yes!
+Dialogue: 0,0:07:52.91,0:07:54.60,*Default,NTP,0000,0000,0000,,我不再需要你們了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I don't need you anymore!
+Dialogue: 0,0:07:57.94,0:07:59.72,*Default,NTP,0000,0000,0000,,天啊  這東西習慣后還挺難戒的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Boy, you really get used to those things.
+Dialogue: 0,0:08:04.50,0:08:06.36,*Default,NTP,0000,0000,0000,,我也不想對本這么狠心\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's not that I want to be mean to Ben.
+Dialogue: 0,0:08:06.36,0:08:08.71,*Default,NTP,0000,0000,0000,,只是他有時真的很煩人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}He can just be so annoying sometimes.
+Dialogue: 0,0:08:08.72,0:08:10.71,*Default,NTP,0000,0000,0000,,我知道人無完人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And I know nobody's perfect,
+Dialogue: 0,0:08:10.71,0:08:13.54,*Default,NTP,0000,0000,0000,,但難道那意味著我必須無視他所有缺點嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}but does that mean I have to ignore all of his flaws?
+Dialogue: 0,0:08:14.23,0:08:15.79,*Default,NTP,0000,0000,0000,,還是說我才是問題所在\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Or is the issue me?
+Dialogue: 0,0:08:16.19,0:08:18.69,*Default,NTP,0000,0000,0000,,是不是我總在找尋根本不存在的人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}A-Am I just looking for something that doesn't exist?
+Dialogue: 0,0:08:19.45,0:08:22.79,*Default,NTP,0000,0000,0000,,我真的能做到無條件去愛一個人嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Am I even capable of loving someone unconditionally?
+Dialogue: 0,0:08:22.79,0:08:25.33,*Default,NTP,0000,0000,0000,,我們明白  你有男朋友\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We get it. You have a boyfriend.
+Dialogue: 0,0:08:26.78,0:08:28.57,*Default,NTP,0000,0000,0000,,那是那個男生的摩托艇\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Hey, there's that guy's jet ski.
+Dialogue: 0,0:08:28.87,0:08:30.18,*Default,NTP,0000,0000,0000,,那個女生的摩托艇\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}That girl's jet ski.
+Dialogue: 0,0:08:30.18,0:08:32.79,*Default,NTP,0000,0000,0000,,不管是男是女  對我有興趣  老娘就要了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Whatever it was, it was into me, and I'm kissing it.
+Dialogue: 0,0:08:33.75,0:08:35.98,*Default,NTP,0000,0000,0000,,幫我保管好別沾水  美人兒\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Keep this dry for me, Pretty.
+Dialogue: 0,0:08:43.02,0:08:44.56,*Default,NTP,0000,0000,0000,,我們走遍了整座島\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We walked around that whole island.
+Dialogue: 0,0:08:44.56,0:08:46.39,*Default,NTP,0000,0000,0000,,一個俊男靚女都沒有\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}No hot boys, girls -- nothing.
+Dialogue: 0,0:08:46.39,0:08:47.46,*Default,NTP,0000,0000,0000,,只有一大堆鳥\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Just a bunch of birds.
+Dialogue: 0,0:08:47.46,0:08:49.03,*Default,NTP,0000,0000,0000,,甚至都不是好看的鳥\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And not even hot birds.
+Dialogue: 0,0:08:51.31,0:08:52.55,*Default,NTP,0000,0000,0000,,我們的船呢\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Hey, where's our boat?
+Dialogue: 0,0:08:54.85,0:08:55.71,*Default,NTP,0000,0000,0000,,不見了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's gone.
+Dialogue: 0,0:08:55.77,0:08:57.11,*Default,NTP,0000,0000,0000,,他們的水上摩托也不見了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And so are their jet skis.
+Dialogue: 0,0:08:57.11,0:08:59.00,*Default,NTP,0000,0000,0000,,他們把我們騙來好偷我們東西\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}They lured us out here and stole our stuff.
+Dialogue: 0,0:08:59.51,0:09:02.04,*Default,NTP,0000,0000,0000,,白癡  你還以為那女生是真的喜歡你\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You idiot. You thought that girl really liked you.
+Dialogue: 0,0:09:04.35,0:09:07.02,*Default,NTP,0000,0000,0000,,"休是世上最好的岳父\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}"Hugh was the world's greatest father-in-law.
+Dialogue: 0,0:09:07.09,0:09:10.46,*Default,NTP,0000,0000,0000,,他總是在一旁支持我  隨時為我伸出援手\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}He was always there for me, ready to lend a helping hand."
+Dialogue: 0,0:09:11.79,0:09:12.76,*Default,NTP,0000,0000,0000,,你在干什么  菲爾\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What are you doing, Phil?
+Dialogue: 0,0:09:12.76,0:09:13.79,*Default,NTP,0000,0000,0000,,我在等克萊爾\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, I'm just waiting out here
+Dialogue: 0,0:09:13.79,0:09:15.60,*Default,NTP,0000,0000,0000,,等她換好衣服我們就去懸崖跳水\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}while Claire changes for our cliff dive.
+Dialogue: 0,0:09:15.61,0:09:18.32,*Default,NTP,0000,0000,0000,,感覺你需要人幫忙涂這惱人的防曬霜\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Looks like you could use some help with that pesky sunscreen.
+Dialogue: 0,0:09:18.32,0:09:19.54,*Default,NTP,0000,0000,0000,,-這么好  -對啊\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Really? ?- Yeah.
+Dialogue: 0,0:09:19.54,0:09:20.50,*Default,NTP,0000,0000,0000,,謝謝\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Thanks! ?
+Dialogue: 0,0:09:21.36,0:09:22.37,*Default,NTP,0000,0000,0000,,來\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}There you go.
+Dialogue: 0,0:09:25.01,0:09:25.64,*Default,NTP,0000,0000,0000,,好癢\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It tickles!
+Dialogue: 0,0:09:25.64,0:09:27.35,*Default,NTP,0000,0000,0000,,-菲爾  -我懂  我懂\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Listen, Phil -- ?I know, I know.
+Dialogue: 0,0:09:27.35,0:09:29.06,*Default,NTP,0000,0000,0000,,-把這件事忘掉  -是必需得記得\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- This never happened. - Oh, it happened.
+Dialogue: 0,0:09:29.06,0:09:31.42,*Default,NTP,0000,0000,0000,,永遠不要忘記你岳父這雙強健的大手\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Never forget how these strong father-in-law hands
+Dialogue: 0,0:09:31.42,0:09:32.59,*Default,NTP,0000,0000,0000,,給你帶來的愉悅\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}gave you pleasure.
+Dialogue: 0,0:09:34.71,0:09:37.57,*Default,NTP,0000,0000,0000,,"我的爸爸休曾傳予我箴言\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}"My dad, Hugh, once gave me the best advice --
+Dialogue: 0,0:09:37.57,0:09:39.84,*Default,NTP,0000,0000,0000,,要懷抱勇氣去選擇自己的路\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}have the courage to choose your own path,
+Dialogue: 0,0:09:39.84,0:09:42.41,*Default,NTP,0000,0000,0000,,而不是別人希望你走的路\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}not the path others expect of you.
+Dialogue: 0,0:09:42.41,0:09:45.82,*Default,NTP,0000,0000,0000,,這些話改變了我的一生"\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Those words changed my life forever."
+Dialogue: 0,0:09:46.80,0:09:48.15,*Default,NTP,0000,0000,0000,,發生什么事了  兒子\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What's going on, son?
+Dialogue: 0,0:09:48.15,0:09:50.86,*Default,NTP,0000,0000,0000,,我知道肯定發生了什么事  我真心在乎你\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I know there's a story there, and I really care.
+Dialogue: 0,0:09:50.86,0:09:51.62,*Default,NTP,0000,0000,0000,,沒事\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's nothing.
+Dialogue: 0,0:09:52.18,0:09:53.88,*Default,NTP,0000,0000,0000,,放下心防\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Walls down, please.
+Dialogue: 0,0:09:53.88,0:09:55.30,*Default,NTP,0000,0000,0000,,好吧  我告訴你\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Ugh. Okay, fine.
+Dialogue: 0,0:09:55.82,0:09:56.91,*Default,NTP,0000,0000,0000,,這事挺難堪的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Um, it's really embarrassing.
+Dialogue: 0,0:09:56.91,0:09:59.36,*Default,NTP,0000,0000,0000,,我在漁具店碰到了一個員工\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Uh, I ran into this guy who works at the bait shop.
+Dialogue: 0,0:09:59.36,0:10:00.56,*Default,NTP,0000,0000,0000,,那是家同志酒吧嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Is that a gay bar?
+Dialogue: 0,0:10:00.56,0:10:02.57,*Default,NTP,0000,0000,0000,,不是  是真的釣魚用具店\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}No, an actual bait shop.
+Dialogue: 0,0:10:02.57,0:10:04.27,*Default,NTP,0000,0000,0000,,多年前我對他發動過攻勢\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And I came on to him years ago.
+Dialogue: 0,0:10:04.27,0:10:05.94,*Default,NTP,0000,0000,0000,,結果發現他是直男\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It turns out he was straight.
+Dialogue: 0,0:10:05.94,0:10:08.22,*Default,NTP,0000,0000,0000,,我受到的創傷至今還沒愈合\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And I'm -- I'm still traumatized by it.
+Dialogue: 0,0:10:08.22,0:10:10.44,*Default,NTP,0000,0000,0000,,讓我給你點建議\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Let me give you some advice.
+Dialogue: 0,0:10:10.44,0:10:13.50,*Default,NTP,0000,0000,0000,,朝難堪跑去  而非逃離它\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Run toward embarrassment, not away from it.
+Dialogue: 0,0:10:13.50,0:10:14.81,*Default,NTP,0000,0000,0000,,明白了嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You got that?
+Dialogue: 0,0:10:14.81,0:10:15.86,*Default,NTP,0000,0000,0000,,等等  什么意思\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Wait. What?
+Dialogue: 0,0:10:15.86,0:10:16.92,*Default,NTP,0000,0000,0000,,去跟他談談\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Go talk to the guy.
+Dialogue: 0,0:10:16.92,0:10:19.86,*Default,NTP,0000,0000,0000,,朝難堪跑去  而非逃離它\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Run toward embarrassment, not away from it,
+Dialogue: 0,0:10:19.86,0:10:21.46,*Default,NTP,0000,0000,0000,,如此才能擊倒它\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and you take away its power.
+Dialogue: 0,0:10:21.46,0:10:22.64,*Default,NTP,0000,0000,0000,,這個建議還真不壞\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}That's actually not the worst advice.
+Dialogue: 0,0:10:22.64,0:10:23.66,*Default,NTP,0000,0000,0000,,簡直棒極了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's great advice.
+Dialogue: 0,0:10:23.66,0:10:25.08,*Default,NTP,0000,0000,0000,,你應該把它記下來\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}In fact, you should write it down.
+Dialogue: 0,0:10:25.08,0:10:26.50,*Default,NTP,0000,0000,0000,,感覺哪天可以再引用\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It feels quotable.
+Dialogue: 0,0:10:26.50,0:10:27.45,*Default,NTP,0000,0000,0000,,知道嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You know what?
+Dialogue: 0,0:10:27.45,0:10:28.81,*Default,NTP,0000,0000,0000,,我要重新站起來面對他\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I am. I'm going back there.
+Dialogue: 0,0:10:28.82,0:10:29.77,*Default,NTP,0000,0000,0000,,你能做到的  米奇爾\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You got this, Mitchell.
+Dialogue: 0,0:10:29.77,0:10:30.99,*Default,NTP,0000,0000,0000,,記住這是你爸爸又一次\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Just think of it as one more time
+Dialogue: 0,0:10:30.99,0:10:33.71,*Default,NTP,0000,0000,0000,,幫助你解決了你這些基佬問題\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}when your dad helped you out with all this gay business.
+Dialogue: 0,0:10:33.88,0:10:34.75,*Default,NTP,0000,0000,0000,,好吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Yeah, okay.
+Dialogue: 0,0:10:36.62,0:10:40.55,*Default,NTP,0000,0000,0000,,歌洛莉亞  你見過這么純凈透藍的湖水嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, Gloria, have you ever seen such pristine blue water?
+Dialogue: 0,0:10:40.55,0:10:42.60,*Default,NTP,0000,0000,0000,,那個是浮尸袋嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Is that a floating duffel bag?
+Dialogue: 0,0:10:42.60,0:10:44.02,*Default,NTP,0000,0000,0000,,不是  是個浮標\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}No, that's just a buoy.
+Dialogue: 0,0:10:44.65,0:10:45.44,*Default,NTP,0000,0000,0000,,一個男孩嗎[音似]\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}A boy?!
+Dialogue: 0,0:10:45.44,0:10:47.13,*Default,NTP,0000,0000,0000,,不是  是浮標\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}No, a buoy. A --
+Dialogue: 0,0:10:47.86,0:10:49.98,*Default,NTP,0000,0000,0000,,我的防曬袍卡在...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, my caftan's stuck in the --
+Dialogue: 0,0:10:51.24,0:10:52.15,*Default,NTP,0000,0000,0000,,太陽\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}The sun!
+Dialogue: 0,0:10:58.83,0:10:59.75,*Default,NTP,0000,0000,0000,,快好了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Almost done.
+Dialogue: 0,0:10:59.86,0:11:01.63,*Default,NTP,0000,0000,0000,,再吹幾下就好了  好嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Just a few more puffs, okay?
+Dialogue: 0,0:11:01.63,0:11:03.43,*Default,NTP,0000,0000,0000,,不能看卡通《泡泡孔雀魚》就好嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Can't we just watch "Groovy Guppies"?
+Dialogue: 0,0:11:03.43,0:11:05.41,*Default,NTP,0000,0000,0000,,相信我  這個好玩多了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Trust me, this will be way more fun.
+Dialogue: 0,0:11:18.56,0:11:19.71,*Default,NTP,0000,0000,0000,,別擔心  他不會有事\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Don't worry. He'll be fine.
+Dialogue: 0,0:11:25.29,0:11:26.33,*Default,NTP,0000,0000,0000,,磨快點\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Go faster!
+Dialogue: 0,0:11:26.33,0:11:28.29,*Default,NTP,0000,0000,0000,,你不是在拉小提琴  你是要生火\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's not a violin. ?You're trying to start a fire.
+Dialogue: 0,0:11:28.30,0:11:29.60,*Default,NTP,0000,0000,0000,,放輕松啊  兄弟\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Hey, chill, man!
+Dialogue: 0,0:11:29.60,0:11:30.75,*Default,NTP,0000,0000,0000,,這樣沒用的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}That's never gonna work.
+Dialogue: 0,0:11:30.76,0:11:32.83,*Default,NTP,0000,0000,0000,,我們得找個更好的辦法通知別人我們在這\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We need a better way to let someone know we're out here.
+Dialogue: 0,0:11:32.83,0:11:34.20,*Default,NTP,0000,0000,0000,,誰帶鏡子了嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Anyone have a mirror?
+Dialogue: 0,0:11:34.73,0:11:37.88,*Default,NTP,0000,0000,0000,,好主意  我們可以反射陽光提醒過往的飛機\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Good idea. We can reflect the sun onto a passing plane.
+Dialogue: 0,0:11:37.88,0:11:39.48,*Default,NTP,0000,0000,0000,,不  我只是想照照鏡子\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}No, I just have a feeling that my hair
+Dialogue: 0,0:11:39.48,0:11:41.34,*Default,NTP,0000,0000,0000,,看看我完美的秀發\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}looks really good right now.
+Dialogue: 0,0:11:42.31,0:11:44.17,*Default,NTP,0000,0000,0000,,我的小指頭扎到木刺了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I got a splinter in my pinkie!
+Dialogue: 0,0:11:44.26,0:11:46.10,*Default,NTP,0000,0000,0000,,看來硬漢的曼尼爾已死\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I think we have a time of death on Manuel.
+Dialogue: 0,0:11:46.11,0:11:47.17,*Default,NTP,0000,0000,0000,,閉嘴  都怪你\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Shut up! It's your fault
+Dialogue: 0,0:11:47.18,0:11:49.15,*Default,NTP,0000,0000,0000,,要我快速鉆木取火\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}for making me rub those sticks together so fast.
+Dialogue: 0,0:11:49.15,0:11:50.91,*Default,NTP,0000,0000,0000,,怪我  要不是這兩個蜥蜴腦袋\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}My fault? ?We wouldn't even be out here
+Dialogue: 0,0:11:50.91,0:11:52.14,*Default,NTP,0000,0000,0000,,管不住褲腰帶\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}if it weren't ?for these two lizard brains
+Dialogue: 0,0:11:52.15,0:11:53.68,*Default,NTP,0000,0000,0000,,我們根本就不會來這兒\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}not being able ?to keep it in their pants.
+Dialogue: 0,0:11:53.68,0:11:55.67,*Default,NTP,0000,0000,0000,,你只是在嫉妒我們\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You're just jealous because we don't hate ourselves
+Dialogue: 0,0:11:55.67,0:11:57.28,*Default,NTP,0000,0000,0000,,不會因為有人愛而自怨自艾\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}for being attracted to other people.
+Dialogue: 0,0:11:57.28,0:11:59.05,*Default,NTP,0000,0000,0000,,拜托  我才不要聽一個今早發短信\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Please! I'm not accepting a psych evaluation
+Dialogue: 0,0:11:59.05,0:12:00.78,*Default,NTP,0000,0000,0000,,讓我把他從廁所救出去的人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}from somebody who texted me for help
+Dialogue: 0,0:12:00.78,0:12:02.48,*Default,NTP,0000,0000,0000,,來給我做的什么心理評估\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}getting out of ?the bathroom this morning.
+Dialogue: 0,0:12:02.48,0:12:03.79,*Default,NTP,0000,0000,0000,,船上的鎖不一樣嘛\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Boat locks are different!
+Dialogue: 0,0:12:04.02,0:12:05.06,*Default,NTP,0000,0000,0000,,其實他說得對\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}He's right, you know.
+Dialogue: 0,0:12:05.06,0:12:07.05,*Default,NTP,0000,0000,0000,,這是你第一次帶男友出來旅行\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}This is your first time bringing a boy on vacation,
+Dialogue: 0,0:12:07.05,0:12:09.38,*Default,NTP,0000,0000,0000,,他跟我們全家坐在一起的一瞬間\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and the second he sat down with the whole family,
+Dialogue: 0,0:12:09.38,0:12:11.55,*Default,NTP,0000,0000,0000,,戀情一下變得太有真實感\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}things started to get a little too real for you.
+Dialogue: 0,0:12:11.55,0:12:13.48,*Default,NTP,0000,0000,0000,,所以你就開始對本吹毛求疵\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}So you started to pick Ben apart
+Dialogue: 0,0:12:13.48,0:12:15.70,*Default,NTP,0000,0000,0000,,好為自己把他推開找借口\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}so you could justify pushing him away.
+Dialogue: 0,0:12:16.87,0:12:18.02,*Default,NTP,0000,0000,0000,,我沒有吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I don't think I do that.
+Dialogue: 0,0:12:18.60,0:12:19.62,*Default,NTP,0000,0000,0000,,我這么做了嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Do I do that?
+Dialogue: 0,0:12:20.68,0:12:21.80,*Default,NTP,0000,0000,0000,,我真的這么做了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I do do that.
+Dialogue: 0,0:12:21.80,0:12:24.76,*Default,NTP,0000,0000,0000,,其實仔細想想  我跟你也差不多\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}When you think about it, I'm in a similar situation.
+Dialogue: 0,0:12:24.76,0:12:26.14,*Default,NTP,0000,0000,0000,,上大學的事越來越有真實感了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}College is getting a little real,
+Dialogue: 0,0:12:26.14,0:12:29.26,*Default,NTP,0000,0000,0000,,我有點擔心又多一群新的人排擠我\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and maybe I'm nervous about a whole new group of people
+Dialogue: 0,0:12:29.26,0:12:32.13,*Default,NTP,0000,0000,0000,,所以我把曼尼的一面藏了起來\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}rejecting me, so I hid Manny away.
+Dialogue: 0,0:12:32.30,0:12:33.32,*Default,NTP,0000,0000,0000,,說到底 \N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}After all...
+Dialogue: 0,0:12:33.93,0:12:36.34,*Default,NTP,0000,0000,0000,,沒見過  就傷不到\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}can't hurt a man they'll never meet.
+Dialogue: 0,0:12:37.49,0:12:39.28,*Default,NTP,0000,0000,0000,,-我想念曼尼爾了  -是啊\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Ugh. I miss Manuel. - Yeah.
+Dialogue: 0,0:12:41.26,0:12:43.27,*Default,NTP,0000,0000,0000,,-你好  -又來搶劫我了嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Oh, hi. - ?Uh-oh. Here to rob me again?
+Dialogue: 0,0:12:43.41,0:12:45.37,*Default,NTP,0000,0000,0000,,剛才很抱歉  我不是有意要嚇你\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Sorry about that. I-I didn't mean to scare you.
+Dialogue: 0,0:12:45.37,0:12:46.94,*Default,NTP,0000,0000,0000,,沒有  你根本沒嚇著我\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, no. ?You didn't scare me at all.
+Dialogue: 0,0:12:47.04,0:12:48.72,*Default,NTP,0000,0000,0000,,事實上我才是那個搶錢的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}As a matter of fact, I'm the one robbing you.
+Dialogue: 0,0:12:48.72,0:12:50.87,*Default,NTP,0000,0000,0000,,在鎮上這些蟲子只要這里半價\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Back in town, these worms are 5 cents each.
+Dialogue: 0,0:12:51.34,0:12:52.21,*Default,NTP,0000,0000,0000,,聽著\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Ah. So, um, listen.
+Dialogue: 0,0:12:52.21,0:12:53.85,*Default,NTP,0000,0000,0000,,其實我們  我們以前就認識了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We -- We actually do know each other.
+Dialogue: 0,0:12:54.36,0:12:56.50,*Default,NTP,0000,0000,0000,,我是米奇爾·普里契特  89年暑假  記得嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Uh, Mitchell Pritchett. Summer of '89?
+Dialogue: 0,0:12:56.70,0:12:58.15,*Default,NTP,0000,0000,0000,,我送了你我的任天堂游戲機\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I let you have my Nintendo Game Boy?
+Dialogue: 0,0:12:58.15,0:13:00.04,*Default,NTP,0000,0000,0000,,米奇·普里契  當然了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Mitchy Pritchy! Of course!
+Dialogue: 0,0:13:00.04,0:13:01.58,*Default,NTP,0000,0000,0000,,你當時可生那游戲機的氣了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You were mad about that Game Boy
+Dialogue: 0,0:13:01.58,0:13:02.71,*Default,NTP,0000,0000,0000,,因為你爸給你買的是游戲機\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}'cause your dad got you that
+Dialogue: 0,0:13:02.71,0:13:04.52,*Default,NTP,0000,0000,0000,,而不是什么雪兒的專輯\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}instead of, like, some Cher album.
+Dialogue: 0,0:13:02.71,0:13:05.82,*Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\b1\bord1\shad1\3c&H2F2F2F&}女歌手雪兒深受同性戀喜愛
+Dialogue: 0,0:13:04.52,0:13:05.82,*Default,NTP,0000,0000,0000,,《如果時間倒轉》專輯\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}"If I Could Turn Back Time." ?
+Dialogue: 0,0:13:05.96,0:13:07.49,*Default,NTP,0000,0000,0000,,我來這里就是因為這個\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Which brings me to why I'm here.
+Dialogue: 0,0:13:08.05,0:13:09.42,*Default,NTP,0000,0000,0000,,我不確定你是否還記得\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Um, I don't know if you remember this,
+Dialogue: 0,0:13:09.42,0:13:11.72,*Default,NTP,0000,0000,0000,,但我有一次想親你  我...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}but I tried to kiss you once, and I've --
+Dialogue: 0,0:13:11.72,0:13:13.43,*Default,NTP,0000,0000,0000,,我只是經常...  我對此深感愧疚\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I've just always -- I've felt really terrible about it.
+Dialogue: 0,0:13:13.43,0:13:14.58,*Default,NTP,0000,0000,0000,,我只想說聲抱歉\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And I just wanted to say I'm sorry.
+Dialogue: 0,0:13:14.58,0:13:16.82,*Default,NTP,0000,0000,0000,,對  沒事  我都忘得差不多了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, yeah. ?No, I barely remember that.
+Dialogue: 0,0:13:16.82,0:13:18.96,*Default,NTP,0000,0000,0000,,我們過了個很愉快的暑假  別放心上了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We had a great summer. Don't think twice about it.
+Dialogue: 0,0:13:18.96,0:13:21.05,*Default,NTP,0000,0000,0000,,這真是...  讓人松了口氣\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh! That is -- that is such a relief.
+Dialogue: 0,0:13:21.07,0:13:23.57,*Default,NTP,0000,0000,0000,,還記得我們偷了我爸的卡車  然后開去賭場嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Remember we stole my dad's truck and took it to the casino?
+Dialogue: 0,0:13:23.57,0:13:24.72,*Default,NTP,0000,0000,0000,,-記得啊  -我想逗你開心\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Right. - ?I was trying to cheer you up
+Dialogue: 0,0:13:24.72,0:13:26.85,*Default,NTP,0000,0000,0000,,因為那個惡霸老是把你推到湖里去\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}because that bully kept pushing you in the lake.
+Dialogue: 0,0:13:26.85,0:13:28.62,*Default,NTP,0000,0000,0000,,那是克萊爾  對  不過我們現在挺好的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Claire. Yeah. No, we're cool now.
+Dialogue: 0,0:13:29.24,0:13:30.48,*Default,NTP,0000,0000,0000,,聽我說  很高興見到你\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Um, so, listen, good to see you.
+Dialogue: 0,0:13:30.48,0:13:31.66,*Default,NTP,0000,0000,0000,,很高興見到你\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Great to see you.
+Dialogue: 0,0:13:32.03,0:13:34.10,*Default,NTP,0000,0000,0000,,聽我說  謝謝你理解我\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, and, hey, listen. Thank you so much for understanding.
+Dialogue: 0,0:13:34.10,0:13:36.29,*Default,NTP,0000,0000,0000,,很多直男根本不可能這么友好\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}A lot of straight guys wouldn't have been so nice.
+Dialogue: 0,0:13:36.29,0:13:38.32,*Default,NTP,0000,0000,0000,,直男  我不是直男\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Straight? I'm not straight.
+Dialogue: 0,0:13:38.71,0:13:39.41,*Default,NTP,0000,0000,0000,,抱歉  你說什么\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm sorry. What?
+Dialogue: 0,0:13:39.41,0:13:41.38,*Default,NTP,0000,0000,0000,,我比三只塞在水桶里的龍蝦還要"彎"曲\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm gayer than ?three crawdaddies in a bucket.
+Dialogue: 0,0:13:41.41,0:13:42.68,*Default,NTP,0000,0000,0000,,你們要買魚餌嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Were you guys looking for bait?
+Dialogue: 0,0:13:42.68,0:13:44.10,*Default,NTP,0000,0000,0000,,我剛進了一些加州短蟲\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I just got in some California Short Worms
+Dialogue: 0,0:13:44.10,0:13:46.18,*Default,NTP,0000,0000,0000,,絕對不是把正常蟲子切成兩半的啊\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}that are definitely not regular worms cut in half.
+Dialogue: 0,0:13:51.49,0:13:52.56,*Default,NTP,0000,0000,0000,,你準備好了嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You ready to do this?
+Dialogue: 0,0:13:52.68,0:13:53.88,*Default,NTP,0000,0000,0000,,那當然\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}So ready!
+Dialogue: 0,0:13:53.91,0:13:55.12,*Default,NTP,0000,0000,0000,,跳進這個懸崖水底就表示\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Jumping off this cliff represents
+Dialogue: 0,0:13:55.12,0:13:56.99,*Default,NTP,0000,0000,0000,,我們像冒險者一樣跳進我們的未來\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}jumping into our future as adventurers.
+Dialogue: 0,0:13:56.99,0:13:58.51,*Default,NTP,0000,0000,0000,,好了  數到三\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Okay. ?Count of three.
+Dialogue: 0,0:13:59.00,0:14:01.55,*Default,NTP,0000,0000,0000,,一  二  三\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}One, two, three!
+Dialogue: 0,0:14:02.39,0:14:03.91,*Default,NTP,0000,0000,0000,,菲爾\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Phiiiilllll!
+Dialogue: 0,0:14:05.38,0:14:07.93,*Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\b1\bord1\shad1\3c&H2F2F2F&}5分鐘后
+Dialogue: 0,0:14:08.65,0:14:09.45,*Default,NTP,0000,0000,0000,,親愛的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Honey...
+Dialogue: 0,0:14:10.05,0:14:11.57,*Default,NTP,0000,0000,0000,,-怎么了  -我很抱歉\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- What happened? - ?I'm so sorry.
+Dialogue: 0,0:14:11.57,0:14:12.62,*Default,NTP,0000,0000,0000,,我最后一秒退縮了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I bailed at the last second. 
+Dialogue: 0,0:14:12.62,0:14:14.70,*Default,NTP,0000,0000,0000,,但我現在準備好了  我發誓\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But I'm ready now. I promise.
+Dialogue: 0,0:14:15.01,0:14:17.93,*Default,NTP,0000,0000,0000,,-準備好了  -一二三\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Ready? - ?One, two, three!
+Dialogue: 0,0:14:18.27,0:14:19.74,*Default,NTP,0000,0000,0000,,我靠...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Come o--
+Dialogue: 0,0:14:21.41,0:14:24.03,*Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\b1\bord1\shad1\3c&H2F2F2F&}8分鐘后
+Dialogue: 0,0:14:23.23,0:14:24.47,*Default,NTP,0000,0000,0000,,你來啦\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh. Hey. There you are.
+Dialogue: 0,0:14:25.14,0:14:25.81,*Default,NTP,0000,0000,0000,,我覺得你好像\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Um, I feel like you
+Dialogue: 0,0:14:25.81,0:14:27.37,*Default,NTP,0000,0000,0000,,數到二就搶跳了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}jumped on "two." Oh!
+Dialogue: 0,0:14:27.89,0:14:31.68,*Default,NTP,0000,0000,0000,,親愛的  跳  很好玩  真的超好玩\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Honey, jumping -- it's fun. It's really fun.
+Dialogue: 0,0:14:31.68,0:14:33.64,*Default,NTP,0000,0000,0000,,但是重點是跟你一起跳\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But the point was to do it with you.
+Dialogue: 0,0:14:33.67,0:14:34.98,*Default,NTP,0000,0000,0000,,所以如果不行的話...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}So if that's gonna be a problem --
+Dialogue: 0,0:14:34.99,0:14:36.63,*Default,NTP,0000,0000,0000,,不  我...我真的想嘗試一下\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}No, I-I definitely want to do it.
+Dialogue: 0,0:14:36.63,0:14:38.03,*Default,NTP,0000,0000,0000,,但問題是\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It's just that I'm having
+Dialogue: 0,0:14:38.03,0:14:39.97,*Default,NTP,0000,0000,0000,,我控制不住我的腿\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}a hard time getting my legs to cooperate.
+Dialogue: 0,0:14:39.98,0:14:42.00,*Default,NTP,0000,0000,0000,,好吧  你得推我\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Okay. ?You're gonna have to push me.
+Dialogue: 0,0:14:42.13,0:14:43.19,*Default,NTP,0000,0000,0000,,-你確定嗎  -確定\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Are you sure? - ?Yes.
+Dialogue: 0,0:14:43.19,0:14:45.06,*Default,NTP,0000,0000,0000,,用力推我一下  我沒事\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Just one hard push, and I'm good.
+Dialogue: 0,0:14:45.33,0:14:46.21,*Default,NTP,0000,0000,0000,,好的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Okay.
+Dialogue: 0,0:14:48.19,0:14:49.29,*Default,NTP,0000,0000,0000,,來\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Here...
+Dialogue: 0,0:14:49.68,0:14:50.59,*Default,NTP,0000,0000,0000,,走\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}we...
+Dialogue: 0,0:14:51.75,0:14:52.57,*Default,NTP,0000,0000,0000,,你\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}go --
+Dialogue: 0,0:14:52.65,0:14:54.29,*Default,NTP,0000,0000,0000,,我去...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, come o--
+Dialogue: 0,0:15:01.41,0:15:03.53,*Default,NTP,0000,0000,0000,,別再這么晃這玩意兒了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Stop rocking this thing so much.
+Dialogue: 0,0:15:03.53,0:15:04.85,*Default,NTP,0000,0000,0000,,我要開始暈船了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I am getting seasick.
+Dialogue: 0,0:15:04.85,0:15:07.53,*Default,NTP,0000,0000,0000,,你可真可憐  要是你...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Well, you poor thing. Maybe if you had --
+Dialogue: 0,0:15:07.61,0:15:09.84,*Default,NTP,0000,0000,0000,,抽筋  抽筋  抽筋  抽筋了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Uh-oh! Cramp, cramp, cramp, cramp, cramp, cramp!
+Dialogue: 0,0:15:09.84,0:15:11.77,*Default,NTP,0000,0000,0000,,我小腿抽筋了  小腿抽筋了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Calf's cramping up! Calf's cramping up!
+Dialogue: 0,0:15:11.78,0:15:13.34,*Default,NTP,0000,0000,0000,,歌洛莉亞  快幫我揉我小腿\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Gloria, I need you to rub my calf!
+Dialogue: 0,0:15:13.34,0:15:15.44,*Default,NTP,0000,0000,0000,,不  我不要碰這水\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}No! I'm not gonna touch that water!
+Dialogue: 0,0:15:15.44,0:15:16.39,*Default,NTP,0000,0000,0000,,歌洛莉亞  我現在疼死了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Gloria, I'm in so much pain!
+Dialogue: 0,0:15:16.39,0:15:18.11,*Default,NTP,0000,0000,0000,,你得稍微用力幫我壓一下\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You got to put a little pressure on it!
+Dialogue: 0,0:15:18.11,0:15:19.44,*Default,NTP,0000,0000,0000,,用力壓一下我的小腿\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Put a little pressure on my calf!
+Dialogue: 0,0:15:19.44,0:15:20.32,*Default,NTP,0000,0000,0000,,好了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Okay, fine!
+Dialogue: 0,0:15:22.77,0:15:23.88,*Default,NTP,0000,0000,0000,,我夠不著\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I can't get it.
+Dialogue: 0,0:15:26.74,0:15:28.33,*Default,NTP,0000,0000,0000,,我掉進湖里了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm in the lake!
+Dialogue: 0,0:15:28.38,0:15:30.10,*Default,NTP,0000,0000,0000,,我掉進湖里了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm in the lake!
+Dialogue: 0,0:15:30.15,0:15:31.86,*Default,NTP,0000,0000,0000,,不要啊\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Ay, no! Ay! Ay!
+Dialogue: 0,0:15:33.14,0:15:35.06,*Default,NTP,0000,0000,0000,,你知道嗎  我小腿不抽了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh! What do you know? My cramp's gone.
+Dialogue: 0,0:15:37.34,0:15:38.65,*Default,NTP,0000,0000,0000,,我又來了 問個小問題\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Hi, again. Quick question.
+Dialogue: 0,0:15:38.65,0:15:39.82,*Default,NTP,0000,0000,0000,,魚餌恕不退換\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}No refunds on the bait.
+Dialogue: 0,0:15:39.82,0:15:41.20,*Default,NTP,0000,0000,0000,,你買的時候肯定是活的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}They were alive when you bought them.
+Dialogue: 0,0:15:41.63,0:15:42.94,*Default,NTP,0000,0000,0000,,是米奇啊  抱歉\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh. Hey, Mitchy. Sorry.
+Dialogue: 0,0:15:42.94,0:15:46.37,*Default,NTP,0000,0000,0000,,我就是好奇  在我們一起玩過后多久\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Just curious -- um, how long after we hung out
+Dialogue: 0,0:15:46.37,0:15:48.10,*Default,NTP,0000,0000,0000,,你意識到你是同性戀的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}did you realize that you were gay?
+Dialogue: 0,0:15:48.10,0:15:50.68,*Default,NTP,0000,0000,0000,,不...  其實是在那之前好幾年\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, no, it was -- it was years before that.
+Dialogue: 0,0:15:50.82,0:15:51.83,*Default,NTP,0000,0000,0000,,好吧  所以那時候\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh. Okay. So -- So, back then,
+Dialogue: 0,0:15:51.83,0:15:53.77,*Default,NTP,0000,0000,0000,,你說你...  "不感興趣"時\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}when you said that you -- you weren't "into this,"
+Dialogue: 0,0:15:53.77,0:15:55.20,*Default,NTP,0000,0000,0000,,是指對我不感興趣嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}you meant that you weren't into me.
+Dialogue: 0,0:15:55.20,0:15:56.91,*Default,NTP,0000,0000,0000,,-這個嘛...  -因為我肯定是當時方圓幾里內\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Well... - ?Because I must have been the only gay kid
+Dialogue: 0,0:15:56.92,0:15:58.46,*Default,NTP,0000,0000,0000,,-唯一同性戀小孩  對吧  -我不...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- around for miles, right? - ?Oh, I don't --
+Dialogue: 0,0:15:58.46,0:16:00.18,*Default,NTP,0000,0000,0000,,是啦  基本上是這樣沒錯\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Yeah, I mean, technically, yeah.
+Dialogue: 0,0:16:00.18,0:16:01.14,*Default,NTP,0000,0000,0000,,讓我理一下\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Let me get this right.
+Dialogue: 0,0:16:01.14,0:16:03.68,*Default,NTP,0000,0000,0000,,你待在這么個破地兒  根本沒別人可選\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You're in the middle of nowhere, with no other options,
+Dialogue: 0,0:16:03.68,0:16:06.61,*Default,NTP,0000,0000,0000,,在一個刮點風都"性奮"的年紀\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}at an age where a boy gets excited by the wind,
+Dialogue: 0,0:16:06.61,0:16:09.16,*Default,NTP,0000,0000,0000,,然后你看著我  表示"還是算了吧"\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and you looked at me, and you said, "Ooh, pass."
+Dialogue: 0,0:16:09.39,0:16:10.23,*Default,NTP,0000,0000,0000,,我...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}W-- I --
+Dialogue: 0,0:16:10.23,0:16:10.97,*Default,NTP,0000,0000,0000,,抱歉\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm sorry.
+Dialogue: 0,0:16:10.97,0:16:12.20,*Default,NTP,0000,0000,0000,,我很抱歉\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I feel bad.
+Dialogue: 0,0:16:12.21,0:16:14.27,*Default,NTP,0000,0000,0000,,雖然已經是30年前的事了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It was 30 years ago, though.
+Dialogue: 0,0:16:14.97,0:16:16.93,*Default,NTP,0000,0000,0000,,你想要點...免費魚餌嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You want some... free bait?
+Dialogue: 0,0:16:16.96,0:16:17.65,*Default,NTP,0000,0000,0000,,要買誘餌嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Have a lure?
+Dialogue: 0,0:16:17.65,0:16:19.50,*Default,NTP,0000,0000,0000,,貌似我的確沒有"誘惑力"\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Apparently, I don't have allure.
+Dialogue: 0,0:16:20.53,0:16:22.56,*Default,NTP,0000,0000,0000,,好了  歌洛莉亞  那里有家店\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Okay, Gloria, there's a store.
+Dialogue: 0,0:16:22.56,0:16:24.61,*Default,NTP,0000,0000,0000,,過去  隨便買個能蓋住我的東西\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Go in there. Get me something to cover me up with -- anything.
+Dialogue: 0,0:16:24.61,0:16:26.61,*Default,NTP,0000,0000,0000,,但如果有顏色可選  不要黃色和綠色\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But if there is a color choice, avoid yellow and green.
+Dialogue: 0,0:16:26.61,0:16:27.51,*Default,NTP,0000,0000,0000,,會顯得我氣色不好\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It washes me out.
+Dialogue: 0,0:16:27.51,0:16:29.31,*Default,NTP,0000,0000,0000,,是啊  小卡  我也很想幫你\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, yeah, Cam, ?I would love to help you --
+Dialogue: 0,0:16:29.31,0:16:32.13,*Default,NTP,0000,0000,0000,,就像你幫我掉進那個骯臟的湖里一樣\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}the same way you helped me fall into that filthy lake!
+Dialogue: 0,0:16:32.13,0:16:35.83,*Default,NTP,0000,0000,0000,,孩子們  小心裸男啊\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Hey, kids! Watch out for the naked man!
+Dialogue: 0,0:16:36.17,0:16:37.76,*Default,NTP,0000,0000,0000,,-什么  歌洛莉亞  -祝你好運\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- What? Gloria? - ?Good luck. 
+Dialogue: 0,0:16:38.17,0:16:39.02,*Default,NTP,0000,0000,0000,,歌洛莉亞\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Gloria!
+Dialogue: 0,0:16:41.45,0:16:42.39,*Default,NTP,0000,0000,0000,,克萊爾\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Claire!
+Dialogue: 0,0:16:43.13,0:16:44.10,*Default,NTP,0000,0000,0000,,克萊爾\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Claire!!
+Dialogue: 0,0:16:45.12,0:16:46.01,*Default,NTP,0000,0000,0000,,快看\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Look!
+Dialogue: 0,0:16:46.74,0:16:48.33,*Default,NTP,0000,0000,0000,,我搞了個噴射背包\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I got a jetpack!
+Dialogue: 0,0:16:52.37,0:16:54.81,*Default,NTP,0000,0000,0000,,我不想成為拖累你的人\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I don't want to be the one to hold you back!
+Dialogue: 0,0:16:55.58,0:16:58.60,*Default,NTP,0000,0000,0000,,我沒想到會這么難控...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I didn't think it'd be this hard to contr--
+Dialogue: 0,0:16:59.08,0:16:59.85,*Default,NTP,0000,0000,0000,,菲爾\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Phil! ?
+Dialogue: 0,0:17:00.75,0:17:02.40,*Default,NTP,0000,0000,0000,,天啊\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, my God!
+Dialogue: 0,0:17:02.48,0:17:04.29,*Default,NTP,0000,0000,0000,,你看  我們才不無聊呢\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Look! We're not boring!
+Dialogue: 0,0:17:04.73,0:17:06.28,*Default,NTP,0000,0000,0000,,我們還很有冒險精神呢\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We're still adventurous!
+Dialogue: 0,0:17:06.28,0:17:07.38,*Default,NTP,0000,0000,0000,,我看出來了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I can see that!
+Dialogue: 0,0:17:07.38,0:17:09.53,*Default,NTP,0000,0000,0000,,我真是太為你驕傲了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm so proud of you!
+Dialogue: 0,0:17:09.53,0:17:11.30,*Default,NTP,0000,0000,0000,,我好愛你\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I love you so much.
+Dialogue: 0,0:17:14.14,0:17:14.82,*Default,NTP,0000,0000,0000,,克萊爾\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Claire?
+Dialogue: 0,0:17:14.82,0:17:16.13,*Default,NTP,0000,0000,0000,,沒事的  寶貝  別怕\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, no, honey. Don't worry.
+Dialogue: 0,0:17:16.13,0:17:17.93,*Default,NTP,0000,0000,0000,,只是日食而已\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I-It's just the eclipse.
+Dialogue: 0,0:17:17.93,0:17:20.89,*Default,NTP,0000,0000,0000,,我分不清那邊是天那邊是地了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I can't tell if I'm headed up or down!
+Dialogue: 0,0:17:27.01,0:17:29.30,*Default,NTP,0000,0000,0000,,你好  黑暗  我的老朋友[歌詞]\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Hello darkness, my old friend 
+Dialogue: 0,0:17:32.44,0:17:33.84,*Default,NTP,0000,0000,0000,,大家人呢\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Where is everybody?
+Dialogue: 0,0:17:35.08,0:17:36.14,*Default,NTP,0000,0000,0000,,算了  不來也無所謂\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Ah, who needs them?
+Dialogue: 0,0:17:36.77,0:17:38.77,*Default,NTP,0000,0000,0000,,這是個挺特別的時刻對吧  喬\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}This is a pretty special moment, huh, Joey?
+Dialogue: 0,0:17:40.79,0:17:42.56,*Default,NTP,0000,0000,0000,,估計你也不會記得這段時光\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Eh, you're never gonna remember any of this.
+Dialogue: 0,0:17:45.51,0:17:46.17,*Default,NTP,0000,0000,0000,,如果可以的話\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}If you don't mind,
+Dialogue: 0,0:17:46.17,0:17:47.83,*Default,NTP,0000,0000,0000,,我是想出去看日食的\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I -- I do want to go outside and see the eclipse.
+Dialogue: 0,0:17:47.84,0:17:49.90,*Default,NTP,0000,0000,0000,,我還沒完呢  你給我聽好了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, I'm not done. ?Just -- Just so you know,
+Dialogue: 0,0:17:49.90,0:17:52.87,*Default,NTP,0000,0000,0000,,很多人覺得我特有魅力好嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}plenty of people find me very attractive, okay,
+Dialogue: 0,0:17:52.87,0:17:56.31,*Default,NTP,0000,0000,0000,,包括我超贊  而且完全不懶散的老公  \N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}including my amazing husband, who is no slouch himself.
+Dialogue: 0,0:17:56.31,0:17:58.90,*Default,NTP,0000,0000,0000,,請問您有賣穆穆袍嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Hi. Do you sell muumuus?
+Dialogue: 0,0:17:56.31,0:17:58.90,*Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\b1\bord1\shad1\3c&H2F2F2F&}夏威夷寬大婦女長袍
+Dialogue: 0,0:17:58.90,0:18:01.00,*Default,NTP,0000,0000,0000,,我現在要去找我老公了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And I am gonna go find him right now.
+Dialogue: 0,0:18:00.97,0:18:03.02,*Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\b1\bord1\shad1\3c&H2F2F2F&}新鮮堅果與莓
+Dialogue: 0,0:18:05.81,0:18:07.75,*Default,NTP,0000,0000,0000,,-那是什么  -天啊  是本\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Hey, what's that? - Oh, my God! It's Ben!
+Dialogue: 0,0:18:07.75,0:18:09.06,*Default,NTP,0000,0000,0000,,他來救我了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}He came to rescue me!
+Dialogue: 0,0:18:09.40,0:18:10.92,*Default,NTP,0000,0000,0000,,我獨自飄在水上\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I was out there all alone.
+Dialogue: 0,0:18:11.27,0:18:12.92,*Default,NTP,0000,0000,0000,,突然就黑了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And then it got really dark.
+Dialogue: 0,0:18:13.22,0:18:14.75,*Default,NTP,0000,0000,0000,,而且我快渴死了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And I'm so thirsty.
+Dialogue: 0,0:18:14.83,0:18:15.92,*Default,NTP,0000,0000,0000,,靠  我沾到了泥\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Ew! I got mud on me.
+Dialogue: 0,0:18:17.93,0:18:20.03,*Default,NTP,0000,0000,0000,,對不起  我不該對你撒氣\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm so sorry I lashed out at you.
+Dialogue: 0,0:18:20.19,0:18:22.78,*Default,NTP,0000,0000,0000,,我好像每次跟人太走心就會這樣\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I think I do it when I start getting close to someone.
+Dialogue: 0,0:18:23.17,0:18:25.16,*Default,NTP,0000,0000,0000,,但我想跟你走心\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}But I want to be close to you.
+Dialogue: 0,0:18:25.17,0:18:26.35,*Default,NTP,0000,0000,0000,,我也想啊\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I want that, too.
+Dialogue: 0,0:18:27.18,0:18:29.43,*Default,NTP,0000,0000,0000,,來吧  我們可以拿這個當槳\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Come on. We can use this as an oar.
+Dialogue: 0,0:18:31.44,0:18:33.54,*Default,NTP,0000,0000,0000,,一船載不下所有人啊\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, there's not enough room for all of us.
+Dialogue: 0,0:18:34.03,0:18:35.97,*Default,NTP,0000,0000,0000,,我們倆可以在這里等你們...\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Well, the two of us can stay while you --
+Dialogue: 0,0:18:36.05,0:18:37.40,*Default,NTP,0000,0000,0000,,我再回來救你\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'll come back for you!
+Dialogue: 0,0:18:39.40,0:18:40.21,*Default,NTP,0000,0000,0000,,好吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}All right.
+Dialogue: 0,0:18:43.86,0:18:47.72,*Default,NTP,0000,0000,0000,,哎喲喲  哪來的稀客啊\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Well, well, well. Look who finally showed up.
+Dialogue: 0,0:18:47.72,0:18:50.92,*Default,NTP,0000,0000,0000,,或許我們99年后可以再試著看一次\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Maybe we can try this again in another 99 years.
+Dialogue: 0,0:18:50.92,0:18:52.52,*Default,NTP,0000,0000,0000,,其實  下一次日全食只要再過\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Actually, there'll be another total eclipse again
+Dialogue: 0,0:18:52.52,0:18:55.17,*Default,NTP,0000,0000,0000,,-7年就能看到  -沒人想聽你的傻逼科學\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- in the next seven years. - No one wants your stupid science, Alex!
+Dialogue: 0,0:18:55.68,0:18:57.06,*Default,NTP,0000,0000,0000,,我就要求了一件事\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I asked for one thing --
+Dialogue: 0,0:18:57.06,0:18:59.92,*Default,NTP,0000,0000,0000,,以我為中心  一起創造這一段回憶\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}to share a memory with all of us with me at the center of it!
+Dialogue: 0,0:18:59.92,0:19:00.80,*Default,NTP,0000,0000,0000,,還有\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And by the way,
+Dialogue: 0,0:19:01.26,0:19:05.54,*Default,NTP,0000,0000,0000,,因為是日食大熱期  船費還是超貴費率\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I had to pay surge boat rates because of eclipse fever!
+Dialogue: 0,0:19:05.54,0:19:06.62,*Default,NTP,0000,0000,0000,,能進他的抱怨排行榜了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}?This is an all-time rant.
+Dialogue: 0,0:19:06.62,0:19:09.00,*Default,NTP,0000,0000,0000,,對啊  前三名吧  84年圣誕那次\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, yeah, top three. It goes Christmas '84,
+Dialogue: 0,0:19:09.00,0:19:10.33,*Default,NTP,0000,0000,0000,,還有他預定了豬肉\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}that wedding where he ordered the pork
+Dialogue: 0,0:19:10.33,0:19:11.51,*Default,NTP,0000,0000,0000,,結果送來了雞肉的婚禮那次\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}but they gave him the chicken instead,
+Dialogue: 0,0:19:11.51,0:19:12.52,*Default,NTP,0000,0000,0000,,然后就是日食周末\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and eclipse weekend.
+Dialogue: 0,0:19:12.52,0:19:13.70,*Default,NTP,0000,0000,0000,,我唯一去那次婚禮的原因\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}The only reason I went to that wedding
+Dialogue: 0,0:19:13.70,0:19:15.22,*Default,NTP,0000,0000,0000,,就是他媽的為了吃那個豬肉\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}was because of the damn pork!
+Dialogue: 0,0:19:15.22,0:19:17.53,*Default,NTP,0000,0000,0000,,你們以后就只會記得我這件事了嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Is this gonna be the only thing you guys remember about me?!
+Dialogue: 0,0:19:17.53,0:19:19.31,*Default,NTP,0000,0000,0000,,你搞這出是因為休·鄧肯去世后\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Does this have something to do with Hugh Duncan dying
+Dialogue: 0,0:19:19.31,0:19:20.70,*Default,NTP,0000,0000,0000,,他臉書上的那些夸贊之詞嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and all those Facebook tributes?
+Dialogue: 0,0:19:20.70,0:19:23.66,*Default,NTP,0000,0000,0000,,-你放屁  -等等  你是想要故意制造美好回憶\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- No!! - Wait, w-were you trying to manufacture nice moments
+Dialogue: 0,0:19:23.66,0:19:26.01,*Default,NTP,0000,0000,0000,,所以你去世以后我們會說你好話嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}so that we'll say good things about you when you're gone?
+Dialogue: 0,0:19:26.01,0:19:27.78,*Default,NTP,0000,0000,0000,,等等  所以你才送我你的天文望遠鏡嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Wait. Is that why you gave me your telescope?
+Dialogue: 0,0:19:27.95,0:19:30.54,*Default,NTP,0000,0000,0000,,擦防曬霜呢  那都是虛情假意嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And the -- the sunscreen? That wasn't real?
+Dialogue: 0,0:19:30.54,0:19:31.65,*Default,NTP,0000,0000,0000,,我懶得跟你們說了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I don't want to talk about this!
+Dialogue: 0,0:19:31.65,0:19:33.44,*Default,NTP,0000,0000,0000,,杰  你上哪去呢\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Jay, where are you going?!
+Dialogue: 0,0:19:33.67,0:19:36.64,*Default,NTP,0000,0000,0000,,我的老天爺啊  老爸  別走啊\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Oh, for God's sakes! Dad! Come back!
+Dialogue: 0,0:19:37.97,0:19:39.15,*Default,NTP,0000,0000,0000,,外公  別走啊\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Grandpa, stop!
+Dialogue: 0,0:19:39.16,0:19:40.97,*Default,NTP,0000,0000,0000,,我們有大把屬于你的美好回憶啊\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}We have tons of great memories of you!
+Dialogue: 0,0:19:40.97,0:19:42.34,*Default,NTP,0000,0000,0000,,你就是說了哄我而已\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You're just saying that!
+Dialogue: 0,0:19:42.39,0:19:43.82,*Default,NTP,0000,0000,0000,,誰快舉個例子\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Someone think of an example!
+Dialogue: 0,0:19:45.84,0:19:47.68,*Default,NTP,0000,0000,0000,,你以前出差回來\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You used to bring me back magnets
+Dialogue: 0,0:19:47.68,0:19:50.10,*Default,NTP,0000,0000,0000,,都會給我帶各式各樣的紀念磁鐵\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}every time you went away on a business trip!
+Dialogue: 0,0:19:50.10,0:19:51.45,*Default,NTP,0000,0000,0000,,超級有心\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}It was so thoughtful!
+Dialogue: 0,0:19:51.45,0:19:54.08,*Default,NTP,0000,0000,0000,,當你發現我喜歡杏仁奶的時候\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Yeah, when you found out I was into almond milk,
+Dialogue: 0,0:19:54.08,0:19:57.30,*Default,NTP,0000,0000,0000,,你去量販超市給我買了一大桶保久杏仁奶\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}you went to Costco and got me that giant thing of almond milk!
+Dialogue: 0,0:19:57.30,0:19:59.88,*Default,NTP,0000,0000,0000,,你喜歡喝  而且不會變質\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Well, you like it, and it doesn't go bad.
+Dialogue: 0,0:19:59.88,0:20:02.07,*Default,NTP,0000,0000,0000,,我媽媽去世時  你給我發了一周短信\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}When my mom died, you texted me every day
+Dialogue: 0,0:20:02.08,0:20:04.16,*Default,NTP,0000,0000,0000,,天天關心我好不好\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}for a week to check on me!
+Dialogue: 0,0:20:04.43,0:20:06.10,*Default,NTP,0000,0000,0000,,你吃小熊糖總是給我留紅色小熊\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}You always save me the red gummy bears
+Dialogue: 0,0:20:06.10,0:20:07.36,*Default,NTP,0000,0000,0000,,因為那是我最喜歡的口味\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}because they're my favorite!
+Dialogue: 0,0:20:07.36,0:20:09.01,*Default,NTP,0000,0000,0000,,也給我留了綠色小熊\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And me the green ones!
+Dialogue: 0,0:20:09.01,0:20:11.41,*Default,NTP,0000,0000,0000,,還給了我舒適生活與東西\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Also, the nice life and stuff!
+Dialogue: 0,0:20:11.52,0:20:13.13,*Default,NTP,0000,0000,0000,,而且你  你超會保存\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}And -- And -- And you're really good
+Dialogue: 0,0:20:13.13,0:20:16.69,*Default,NTP,0000,0000,0000,,我跟米奇爾小時候的那些照片\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}at saving old pictures of me and Mitchell as kids!
+Dialogue: 0,0:20:16.69,0:20:18.19,*Default,NTP,0000,0000,0000,,例子開始打混了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Getting a little general.
+Dialogue: 0,0:20:18.30,0:20:20.83,*Default,NTP,0000,0000,0000,,"朝難堪跑去  而非逃離它\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}"Run toward embarrassment, not away from it,
+Dialogue: 0,0:20:20.83,0:20:22.30,*Default,NTP,0000,0000,0000,,如此才能擊倒它"\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}and you take away its power"!
+Dialogue: 0,0:20:22.30,0:20:24.25,*Default,NTP,0000,0000,0000,,我會永遠記得這句話\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I'm always gonna remember that!
+Dialogue: 0,0:20:26.43,0:20:27.36,*Default,NTP,0000,0000,0000,,行吧\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Good enough.
+Dialogue: 0,0:20:29.47,0:20:31.07,*Default,NTP,0000,0000,0000,,"朝難堪跑去"\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}"Run toward embarrassment"?
+Dialogue: 0,0:20:31.07,0:20:32.24,*Default,NTP,0000,0000,0000,,這話是什么鬼啊\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}What does that even mean?
+Dialogue: 0,0:20:32.24,0:20:33.79,*Default,NTP,0000,0000,0000,,我也不懂  但他需要這鼓勵\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}I don't know. He needs this.
+Dialogue: 0,0:20:37.66,0:20:39.31,*Default,NTP,0000,0000,0000,,你為什么要推我下水\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Why would you push me in like that?
+Dialogue: 0,0:20:39.31,0:20:41.75,*Default,NTP,0000,0000,0000,,干嘛啦  大家都笑了\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Relax. Everybody laughed.
+Dialogue: 0,0:20:42.15,0:20:43.92,*Default,NTP,0000,0000,0000,,? 回首 ?\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}♪ Turn around. ♪
+Dialogue: 0,0:20:43.92,0:20:44.95,*Default,NTP,0000,0000,0000,,? 有時候 ?\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}♪ Every now and then ♪
+Dialogue: 0,0:20:44.95,0:20:46.88,*Default,NTP,0000,0000,0000,,? 我會感到有些孤單 ?\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}♪ I get a little bit lonely ♪
+Dialogue: 0,0:20:46.88,0:20:49.12,*Default,NTP,0000,0000,0000,,? 但你從不來陪伴我 ?\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}♪ and you're never coming round. ♪
+Dialogue: 0,0:20:49.12,0:20:50.30,*Default,NTP,0000,0000,0000,,? 回首 ?\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}♪ Turn around. ♪
+Dialogue: 0,0:20:50.30,0:20:54.02,*Default,NTP,0000,0000,0000,,到我  ? 有時候我也會厭煩 ?\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Me. ♪ Every now and then I get a little bit tired of ♪
+Dialogue: 0,0:20:54.02,0:20:56.36,*Default,NTP,0000,0000,0000,,? 聽到自己眼淚落下 ?\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}♪ listening to the sound of my tears. ♪
+Dialogue: 0,0:20:56.36,0:20:57.57,*Default,NTP,0000,0000,0000,,? 回首吧 ?\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}♪ Turn around, ♪
+Dialogue: 0,0:20:57.57,0:20:59.92,*Default,NTP,0000,0000,0000,,? 明眸的你 ?\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}♪ bright eyes. ♪
+Dialogue: 0,0:21:00.63,0:21:01.92,*Default,NTP,0000,0000,0000,,-輪到誰  -老爸\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- Who? - Dad.
+Dialogue: 0,0:21:01.92,0:21:03.77,*Default,NTP,0000,0000,0000,,來嘛杰  大家都會記得這一刻\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Come on Jay, everybody will remember it.
+Dialogue: 0,0:21:03.77,0:21:05.11,*Default,NTP,0000,0000,0000,,這是強人所難\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}That's extortion.
+Dialogue: 0,0:21:05.11,0:21:06.32,*Default,NTP,0000,0000,0000,,拜托嘛\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Come on.
+Dialogue: 0,0:21:06.49,0:21:08.74,*Default,NTP,0000,0000,0000,,? 有時我會崩潰 ?\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}♪ Every now and then I fall apart ♪
+Dialogue: 0,0:21:08.74,0:21:12.10,*Default,NTP,0000,0000,0000,,-這就對啦  -?而今夜我需要你的陪伴 ?\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}- There it is. - ♪ and I need you now tonight ♪
+Dialogue: 0,0:21:12.25,0:21:14.79,*Default,NTP,0000,0000,0000,,? 從沒有如此需要你過 ?\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}♪ and I need you more than ever. ♪
+Dialogue: 0,0:21:14.79,0:21:15.96,*Default,NTP,0000,0000,0000,,這玩意是歌嗎\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Is this even a song?
+Dialogue: 0,0:21:15.96,0:21:18.98,*Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\b1\bord1\shad1\3c&H2F2F2F&}Total eclipse of the heart - Bonnie Tyler
+Dialogue: 0,0:21:15.96,0:21:17.21,*Default,NTP,0000,0000,0000,,? 曾幾何時 ?\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}♪ Once upon a time, ♪
+Dialogue: 0,0:21:17.21,0:21:18.98,*Default,NTP,0000,0000,0000,,? 我墜入過愛河 ?\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}♪ I was falling in love, ♪
+Dialogue: 0,0:21:18.98,0:21:21.85,*Default,NTP,0000,0000,0000,,? 但如今我墜入無間地獄 ?\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}♪ but now I'm only falling apart. ♪
+Dialogue: 0,0:21:21.85,0:21:23.45,*Default,NTP,0000,0000,0000,,? 對此我束手無策 ?\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}♪ There's nothing I can do ♪
+Dialogue: 0,0:21:23.45,0:21:27.50,*Default,NTP,0000,0000,0000,,? 這場心的全食?\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}♪ with a total eclipse of the heart. ♪
+Dialogue: 0,0:21:29.22,0:21:30.82,*Default,NTP,0000,0000,0000,,對了  本呢\N{\fn微软雅黑}{\b0}{\fs14}{\3c&H202020&}{\shad1}Hey. Where's Ben?
